@@ -24,3 +24,7 @@
                     <p class="servPar">Social skills groups are the best way to help children make and keep friends and deal with teasing. They are also a great source of support and encouragement to children who feel socially isolated or rejected by their peers.</p>
                 </div>
             </div>
+            <div class="parallax2"></div>
+            <div class="container">
+                <h2>Mission Statement Here or Let us help you...</h2>
+            </div>

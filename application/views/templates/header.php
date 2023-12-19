@@ -12,16 +12,16 @@
 		<link rel="icon" href="assets/images/favicon.png" type="image/png">
 	</head>
 
-        <body>
-                <header>
+	<body>
+		<header>
 			<div id="toptop">
 				<p id="topOne">Social, Emotional, and Behavioral Skills</p>
-            	                <p id="topTow">Call Us: 972-404-3001</p>
+				<p id="topTow">Call Us: 972-404-3001</p>
 			</div>
-            
-                        <nav class="navFirst">
+			
+			<nav class="navFirst">
 				<img id="mainLogo" src="assets/images/css-logo4.png" alt="Logo">
-				<a href="#" id="navicon"><img src="images/navicon.png" alt=""></a>
+				<a href="#" id="navicon"><img src="assets/images/navicon.png" alt=""></a>
 				<ul>
 					<li><a href="index.html">Home Page</a></li>
 					<li><a href="html/services.html">Services</a></li>
@@ -30,4 +30,4 @@
 					<li><a href="html/contact.html">Contact Us</a></li>
 				</ul>
 			</nav>
-                </header>
+		</header>
