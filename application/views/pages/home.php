@@ -1,7 +1,8 @@
         <main>
             <div class=parallax1></div>
-			<h1>Services</h1>
 			<div class="container">
+                <h1 class="cta1"><i>Let us help you!</i></h1>
+                <h4 class="cta2">Learn more about our services </h4>
                 <div class="services">
 					<h2>Adult Services</h2>
                     <img src="assets/images/AdultServices.jpg" alt="">
