@@ -37,7 +37,9 @@ html {
 }
 
 #mainLogo {
-    width: 100%;
+    width: 40%;
+    margin: 2% 0 0 25%;
+    padding: 0;
 }
 
 /* Navigation Styles */
@@ -89,7 +91,7 @@ h2 {
 
 .parallax1 {
     background-image: url(../images/happy-family.jpg);
-    min-height: 30vh;
+    min-height: 40vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
@@ -99,7 +101,7 @@ h2 {
 
 .parallax2 {
     background-image: url(../images/css-staff-23.jpg);
-    min-height: 25vh;
+    min-height: 35vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
@@ -119,12 +121,118 @@ footer {
     background-color: var(--background);
 }
 
+.advert {
+    color: white;
+    font-size: .7em;
+    background-color: rgb(2,3,129);
+}
+
 @media screen and (min-width: 700px) {
+
+    html {
+        font-size: 2em;
+    }
+
+    #topOne {
+        margin: 0;
+        padding: 0;
+    }
+
+    #topTwo {
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    /* Header Styles */
+
     #mainLogo {
-        width: 25%;
+        width: 35%;
+        margin: 0;
+    }
+
+    /* Body Styles */
+    .parallax2 {
+        min-height: 45vh;
+    }
+
+    /* Footer Styles */
+    footer {
+        padding-top: 10px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin: 2% 2%;
+    }
+
+    .advert {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2%;
     }
 }
 
 @media screen and (min-width: 1000px) {
+
+    /* Header Styles */
+    #mainLogo {
+        width: 10%;
+    }
+
+    /* Navigation Styles */
+
+    #toptop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a#navicon {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
     
+    .navFirst {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .navFirst ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navFirst ul li {
+        margin-left: 50px;
+        font-size: .80em;
+    }
+    
+    .navFirst ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a#navicon:hover+ul, nav ul:hover {
+        display: flex;
+    }
+
+    .navFirst li a:active, .navFirst li a:hover {
+        display: flex;
+        color: black;
+    }
+
+    /* Body Styles */
+    .parallax1 {
+        min-height: 55vh;
+    }
 }
