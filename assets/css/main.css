@@ -226,11 +226,13 @@ footer {
 	/* Header Styles */
 
 	#mainLogo {
-		width: 35%;
-		margin: 0;
+		width: 25%;
 	}
 
 	/* Body Styles */
+	.parallax1 {
+		min-height: 50vh;
+	}
 
 	.parallax2 {
 		min-height: 45vh;
@@ -261,6 +263,18 @@ footer {
 	}
 }
 
+@media screen and (min-width: 913px) {
+	#toptop {
+		display: flex;
+		justify-content: space-between;
+		font-size: 1em;
+	}
+
+	#mainLogo {
+		width: 15%;
+	}
+}
+
 @media screen and (min-width: 1025px) {
 	/* Header Styles */
 	.navLogo {
@@ -274,12 +288,6 @@ footer {
 
 	html {
 		font-size: 1.5em;
-	}
-
-	#toptop {
-		display: flex;
-		justify-content: space-between;
-		font-size: 1em;
 	}
 
 	/* Navigation Styles */
@@ -328,8 +336,8 @@ footer {
 	.navFirst li a:active,
 	.navFirst li a:hover {
 		display: flex;
-		color: #313131;
-		background-color: white;
+		color: rgba(0, 0, 0);
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 	}
 
 	/* Hero Section */
