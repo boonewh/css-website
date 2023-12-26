@@ -13,6 +13,36 @@ class Pages extends CI_Controller {
                 'css' => "assets/css/main.css",
         ];
 
+        private $staffData = [
+                'title' => "CSS Services Page",
+                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'css' => "assets/css/main.css",
+        ];
+
+        private $pupsData = [
+                'title' => "CSS Services Page",
+                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'css' => "assets/css/main.css",
+        ];
+
+        private $newsletterData = [
+                'title' => "CSS Services Page",
+                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'css' => "assets/css/main.css",
+        ];
+
+        private $locationData = [
+                'title' => "CSS Services Page",
+                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'css' => "assets/css/main.css",
+        ];
+
+        private $contactData = [
+                'title' => "CSS Services Page",
+                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'css' => "assets/css/main.css",
+        ];
+
         public function view($page = 'home')
         {
 
@@ -27,6 +57,16 @@ class Pages extends CI_Controller {
                 $data = $this->homeData;
                 } else if ($page === 'services') {
                         $data = $this->servicesData;
+                } else if ($page === 'staff') {
+                        $data = $this->staffData;
+                } else if ($page === 'pups') {
+                        $data = $this->pupsData;
+                } else if ($page === 'newsletter') {
+                        $data = $this->newsletterData;
+                } else if ($page === 'location') {
+                        $data = $this->locationData;
+                } else if ($page === 'contact') {
+                        $data = $this->contactData;
                 } else {
                         show_404();
                 }
