@@ -198,6 +198,33 @@ h4 {
 	border-radius: 10px;
 }
 
+/* Staff Page Styles */
+
+.staffHeader {
+	width: 100%;
+}
+
+.staff h4,
+.staff h5 {
+	margin: 0;
+}
+
+.staff {
+	text-align: center;
+	flex: 1 1 350px;
+	margin: 10px 20px;
+}
+
+.staff ul {
+	list-style: none;
+}
+
+.staff img {
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
 /* Footer Styles */
 
 footer {
@@ -238,6 +265,12 @@ footer {
 
 	.parallax2 {
 		min-height: 45vh;
+	}
+
+	.squeeze {
+		width: 70%;
+		text-align: center;
+		margin: 0 auto;
 	}
 
 	/* Footer Styles */

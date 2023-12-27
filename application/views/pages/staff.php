@@ -1,9 +1,9 @@
-        <main>
-            <img src="assets/images/opt-staffheader.jpg" alt="">
+        <main class="squeeze">
+            <img src="assets/images/opt-staffheader.jpg" alt="" class="staffHeader">
             <h1>Meet Our Team of Professionals</h1>
 
-            <div>
-                <div>
+            <div class="container">
+                <div class="staff">
                     <img src="assets/images/erin.jpg" alt="Erin Lozano">
                     <h4>Erin Lozano</h4>
                     <h5>Early Childhood Division Director</h5>
@@ -19,7 +19,7 @@
                         <li>PCIT (Parent-Child Interaction Therapy)</li>
                     </ul>
                 </div>
-                <div>
+                <div class="staff">
                     <img src="assets/images/holly.jpg" alt="Holly Fedro">
                     <h4>Holly Fedro, MS, LCSW</h4>
                     <h5>Adolescent and Adult Division Director</h5>
@@ -35,21 +35,31 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="container">
+                <div class="staff">
                     <img src="assets/images/tobi.jpg" alt="Tobi Carter">
                     <h4>Tobi Carter, LMSW</h4>
                     <h5>Chief Medical Officer</h5>
                 </div>
-                <div>
+                <div class="staff">
                     <img src="assets/images/deliah.jpg" alt="Deliah Mooney">
                     <h4>Deliah Mooney, LMSW</h4>
                     <h5>Chief Wellness Coach</h5>
                 </div>
-                <div>
+                <div class="staff">
                     <img src="assets/images/roy.jpg" alt="Roy Rodriguez">
                     <h4>Roy Rodriguez</h4>
                     <h5>Chief Welness Coordinator</h5>
                 </div>
+            </div>
+            <div class="staff">
+                <img src="assets/images/dristre" alt="Dr. Susan Istre">
+                <h4>Susan Istre, PhD, LPC-S</h4>
+                <h5>Director Ameritas</h5>
+            </div>
+            <div class="staff">
+                <img src="assets/images/melissa" alt="Melissa Drager">
+                <h4>Melissa Drager</h4>
+                <h5>Practice Manager</h5>
             </div>
         </main>
