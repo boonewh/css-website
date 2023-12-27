@@ -1,1 +1,3 @@
-<h1>Location</h1>
+        <main>
+            <h1>Location</h1>
+        </main>

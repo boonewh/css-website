@@ -14,8 +14,8 @@ class Pages extends CI_Controller {
         ];
 
         private $staffData = [
-                'title' => "CSS Services Page",
-                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'title' => "Meet Our Professionals",
+                'description' => "CSS Proffesionals, specializing in a wide variety of services to help you every day.",
                 'css' => "assets/css/main.css",
         ];
 
