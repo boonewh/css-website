@@ -225,6 +225,16 @@ h4 {
 	border-radius: 10px;
 }
 
+.staff2 {
+	display: flex;
+}
+
+.staff2 img {
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
 /* Footer Styles */
 
 footer {
@@ -271,6 +281,51 @@ footer {
 		width: 70%;
 		text-align: center;
 		margin: 0 auto;
+	}
+
+	/* Staff Page Styles*/
+
+	.staff2 {
+		text-align: center;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.staff2 img {
+		max-width: 45%;
+		margin: 20px;
+	}
+
+	.dristre {
+		width: 45%;
+		text-align: center;
+		margin: 50px auto;
+	}
+
+	.dristre img {
+		width: 30%;
+		border-radius: 40px;
+	}
+
+	.dristre h4,
+	h5 {
+		margin: 0;
+	}
+
+	.mel {
+		width: 45%;
+		text-align: center;
+		margin: 50px auto;
+	}
+
+	.mel img {
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	.mel h4,
+	h5 {
+		margin: 0;
 	}
 
 	/* Footer Styles */
