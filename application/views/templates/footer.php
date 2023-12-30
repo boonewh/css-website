@@ -7,8 +7,8 @@
 				<h3>Call today so we can help you achieve more success in all your social relationships.</h3>
 			</div>
 			<div class="advert">
-				<p>2023 All Rights Reserved, Center for Social Success</p>
-				<p>Website by WB {Total: Web Design}</p>
+				<p>2024 All Rights Reserved, Center for Social Success</p>
+				<p>Website: Pathsix Web Design, by WB</p>
 			</div>
 		</footer>
 	</body>

@@ -235,6 +235,21 @@ h4 {
 	border-radius: 10px;
 }
 
+/* Newletter Styles */
+
+article {
+	font-size: 1.1em;
+	width: 100%;
+}
+
+article img {
+	width: 100%;
+}
+
+article h6 {
+	margin: 0;
+}
+
 /* Footer Styles */
 
 footer {
@@ -471,5 +486,11 @@ footer {
 
 	.parallax2 {
 		min-height: 90vh;
+	}
+
+	article {
+		width: 65%;
+		margin: 0 auto;
+		font-size: 1em;
 	}
 }
