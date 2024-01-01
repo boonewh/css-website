@@ -141,6 +141,30 @@ h4 {
 	align-items: center;
 }
 
+/* Button Styles */
+button {
+	margin: 20px 0 30px 25px;
+	width: 200px;
+	height: 30px;
+	transition: transform 0.3s ease;
+	border-radius: 10px;
+	font-family: Alkatra, Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: var(--background);
+	background-color: var(--tertiary);
+}
+
+button:active,
+button:hover {
+	background-color: grey;
+}
+
+button:active,
+input[type="submit"]:active {
+	background-color: var(--background);
+	color: var(--tertiary);
+}
+
 /* Call to Action */
 
 .cta1 {
@@ -198,6 +222,23 @@ h4 {
 	border-radius: 10px;
 }
 
+/* Services Styles */
+
+.body-div {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-gap: 20px;
+}
+
+.center-logo {
+	width: 100%;
+	grid-row: 1;
+}
+
+.first-paragraph {
+	grid-row: 2;
+}
+
 /* Staff Page Styles */
 
 .staffHeader {
@@ -235,6 +276,26 @@ h4 {
 	border-radius: 10px;
 }
 
+/* Therapy Pups Styles */
+
+.pups {
+	border-radius: 50%;
+	width: 100%;
+}
+
+figcaption {
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+figure ul {
+	list-style: none;
+	text-align: center;
+	margin-left: -30px;
+}
+
 /* Newletter Styles */
 
 article {
@@ -244,10 +305,46 @@ article {
 
 article img {
 	width: 100%;
+	border-radius: 10px;
 }
 
 article h6 {
 	margin: 0;
+}
+
+/* Contact Page Styles */
+.form-container {
+	padding: 10px;
+}
+
+#msg {
+	margin-bottom: 30px;
+}
+
+#msg {
+	margin-bottom: 30px;
+}
+
+.input-div label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.input-div input[type="text"],
+.input-div textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+.input-div input[type="text"]:hover,
+.input-div textarea:hover {
+	border-color: #007bff;
+}
+
+#contact-form textarea {
+	resize: vertical;
 }
 
 /* Footer Styles */
@@ -296,6 +393,44 @@ footer {
 		width: 70%;
 		text-align: center;
 		margin: 0 auto;
+	}
+
+	/* Services Page Styles */
+
+	section {
+		display: grid;
+		grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(
+				2rem,
+				1fr
+			);
+		row-gap: 3rem;
+		margin-bottom: 150px;
+	}
+
+	.body-div {
+		display: inline;
+		grid-column: 2/3;
+		font-size: 1.8rem;
+		letter-spacing: 0.6px;
+		column-width: 25rem;
+		text-align: justify;
+	}
+
+	.center-logo {
+		width: 60%;
+		margin: auto;
+		display: block;
+		grid-column: 1 / -1;
+		justify-self: center;
+	}
+
+	.first-paragraph::first-letter {
+		font-size: 5rem;
+		color: var(--accentColor);
+		float: left;
+		margin-right: 1rem;
+		margin-top: -20px;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	/* Staff Page Styles*/
@@ -378,6 +513,21 @@ footer {
 	#mainLogo {
 		width: 15%;
 	}
+
+	.form-container {
+		text-align: center;
+	}
+
+	.input-div label {
+		margin-bottom: 10px;
+	}
+
+	.input-div input[type="text"],
+	.input-div textarea {
+		width: 40%;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (min-width: 1025px) {
@@ -392,7 +542,7 @@ footer {
 	}
 
 	html {
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 
 	/* Navigation Styles */
@@ -445,7 +595,7 @@ footer {
 		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 	}
 
-	/* Hero Section */
+	/* Hero Style */
 	.cta1 {
 		font-size: 2.3em;
 		position: absolute;
@@ -471,7 +621,11 @@ footer {
 	}
 
 	h2 {
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1.8em;
 	}
 
 	h4 {
