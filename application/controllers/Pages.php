@@ -9,7 +9,7 @@ class Pages extends CI_Controller {
 
         private $servicesData = [
                 'title' => "CSS Services Page",
-                'description' => "The services that CSS provide. Adult Services; Child, Teen, Family Services; Animal Assisted Services; Social Skills Groups.",
+                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
                 'css' => "assets/css/main.css",
         ];
 

@@ -1,28 +1,38 @@
         <main>
             <div class=parallax1></div>
             <h1 class="cta1"><i>Let us help you!</i></h1>
-            <h4 class="cta2">Learn more about our services </h4>
+            <a href="/services"><h4 class="cta2">Learn more about our services </h4></a> 
 			<div class="container">
 
                 <div class="services">
-					<h2>Adult Services</h2>
-                    <img src="assets/images/AdultServices.jpg" alt="">
-                    <p class="servPar">Adult services are short term and solution focused. Individual, family, or couples counseling can address a wide variety of issues.</p> <!-- such as anger, anxiety, stress, depression, grief, ADHD, dating, life transitions, marriage enrichment, divorce, blended family, or family of origin issues.</p> -->
-                </div>
-                <div class="services">
-					<h2>Child, Teen, Family Services</h2>
-                    <img src="assets/images/familyservices.jpg" alt="">
-                    <p class="servPar">Child, teen, and family services provide practical, new strategies to old problems.</p> <!-- through the use of play therapy, sibling therapy, social skills groups, home visits, school consultations, bullying interventions, parent education, and positive home behavior plans.</p> -->
-                </div>
-                <div class="services">
-					<h2>Animal Assisted Services</h2>
-                    <img src="assets/images/animal-assist.jpg" alt="">
-                    <p class="servPar">Our animal assisted therapy program utilizes hypo-allergenic, non-shedding puppies.</p> <!-- to teach, calm, and motivate our clients. This is only one of the ways we teach social skills while at the same time making therapy fun and exciting!</p> -->
-                </div>
-                <div class="services">
-					<h2 id="serv">Social Skills Groups</h2>
+                    <a href="/services#social"><h2>Social Skills Group</h2></a>
                     <img src="assets/images/SocialSkillsGroups.jpg" alt="">
-                    <p class="servPar">Social skills groups are the best way to help children make and keep friends.</p> <!-- and deal with teasing. They are also a great source of support and encouragement to children who feel socially isolated or rejected by their peers.</p> -->
+                    <p class="servPar">New Text Needed</p> 
+                </div>
+                <div class="services">
+                <a href="/service#play"><h2>Play Therapy</h2></a>
+                    <img src="assets/images/familyservices.jpg" alt="">
+                    <p class="servPar">New Text Needed</p>
+                </div>
+                <div class="services">
+                    <a href="/service#teen"><h2>Teen and Adolescents Therapy</h2></a>
+                    <img src="assets/images/animal-assist.jpg" alt="">
+                    <p class="servPar">New Text Needed</p>
+                </div>
+                <div class="services">
+                    <a href="/services#animal"><h2 id="serv">Animal Assisted Therapy</h2></a>
+                    <img src="assets/images/animal-assist.jpg" alt="">
+                    <p class="servPar">New Text Needed</p>
+                </div>
+                <div class="services">
+                    <a href="/services#adult"><h2 id="serv">Young Adult and Adult Therapy</h2></a>
+                    <img src="assets/images/SocialSkillsGroups.jpg" alt="">
+                    <p class="servPar">New Text Needed</p>
+                </div>
+                <div class="services">
+                    <a href="/services#family"><h2 id="serv">Family/Parenting Therapy</h2></a>
+                    <img src="assets/images/familyservices.jpg" alt="">
+                    <p class="servPar">New Text Needed</p>
                 </div>
             </div>
             <div class="parallax2"></div>
