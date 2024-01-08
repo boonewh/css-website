@@ -208,21 +208,31 @@ input[type="submit"]:active {
 	border-radius: 10px;
 }
 
-/* Services Styles */
+/* Therapy Styles */
 
-.body-div {
-	display: grid;
-	grid-template-rows: auto 1fr;
-	grid-gap: 20px;
+.therapy-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: var(--css-top-mid);
 }
 
-.center-logo {
-	width: 100%;
-	grid-row: 1;
+.therapy-container2 {
+	width: 75%;
+	background: var(--css-top-mid);
+	margin: 0 auto;
+	padding: 50px;
 }
 
-.first-paragraph {
-	grid-row: 2;
+.therapy {
+	display: flex;
+	align-items: center;
+}
+
+.therapy img {
+	width: 40%;
+	margin: 20px;
+	border-radius: 10px;
 }
 
 /* Staff Page Styles */
@@ -307,6 +317,22 @@ article h6 {
 
 .location img {
 	width: 100%;
+}
+
+/* Location Styles */
+.location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.location img {
+	width: 45%;
+}
+
+.location p {
+	font-size: 1.2em;
+	margin-left: 30px;
 }
 
 /* Contact Page Styles */
@@ -394,39 +420,12 @@ footer {
 
 	/* Services Page Styles */
 
-	section {
-		display: grid;
-		grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(
-				2rem,
-				1fr
-			);
-		row-gap: 3rem;
-		margin-bottom: 150px;
-	}
-
-	.body-div {
-		display: inline;
-		grid-column: 2/3;
-		font-size: 1.8rem;
-		letter-spacing: 0.6px;
-		column-width: 25rem;
-		text-align: justify;
-	}
-
-	.center-logo {
-		width: 100%;
-		margin: auto;
-		display: block;
-		grid-column: 1 / -1;
-		justify-self: center;
-	}
-
 	.first-paragraph::first-letter {
-		font-size: 5rem;
+		font-size: 3rem;
 		color: var(--secondary-text);
 		float: left;
-		margin-right: 1rem;
-		margin-top: -20px;
+		margin-right: 0.5rem;
+		margin-top: -10px;
 		font-family: "Times New Roman", Times, serif;
 	}
 
@@ -457,17 +456,6 @@ footer {
 	.dristre h4,
 	h5 {
 		margin: 0;
-	}
-
-	.mel {
-		width: 45%;
-		text-align: center;
-		margin: 50px auto;
-	}
-
-	.mel img {
-		width: 100%;
-		border-radius: 10px;
 	}
 
 	.mel h4,
@@ -525,22 +513,6 @@ footer {
 		padding: 10px;
 		margin-bottom: 20px;
 	}
-}
-
-/* Location Styles */
-.location {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.location img {
-	width: 45%;
-}
-
-.location p {
-	font-size: 1.2em;
-	margin-left: 30px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -653,6 +625,15 @@ footer {
 		justify-content: space-between;
 	}
 
+	.therapy-container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.therapy-container a {
+		margin: 0 40px 0 30px;
+	}
+
 	.parallax2 {
 		min-height: 90vh;
 	}
@@ -661,5 +642,10 @@ footer {
 		width: 65%;
 		margin: 0 auto;
 		font-size: 1em;
+	}
+
+	.column {
+		width: 33%;
+		margin: 60px 0;
 	}
 }

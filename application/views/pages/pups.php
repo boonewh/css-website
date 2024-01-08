@@ -1,9 +1,9 @@
         <main>
             <h1>Meet Our Therapy Pups!</h1>
             <div class="container">
-                <div class="column1">
+                <div class="column">
                     <figure>
-                        <img src="assets/images/gumbo.png" alt="Meet Gumbo"  class="pups">
+                        <img src="assets/images/gumbo.jpg" alt="Meet Gumbo"  class="pups">
                         <figcaption>Gumbo</figcaption>
                         <ul>
                             <li>Favorites Include:</li>
@@ -13,9 +13,9 @@
                     </figure>
                 </div>
 
-                <div class="column2">
+                <div class="column">
                     <figure>
-                        <img src="assets/images/blitz.png" alt="Meet Blitz" class="pups">
+                        <img src="assets/images/blitz.JPG" alt="Meet Blitz" class="pups">
                         <figcaption>Blitz</figcaption>
                         <ul>
                             <li>Favorites Include:</li>
@@ -25,9 +25,9 @@
                     </figure>
                 </div>
 
-                <div class="column3">
+                <div class="column">
                     <figure>
-                        <img src="assets/images/braxton.png" alt="Meet Braxton" class="pups">
+                        <img src="assets/images/braxton.jpg" alt="Meet Braxton" class="pups">
                         <figcaption>Braxton</figcaption>
                         <ul>
                             <li>Favorites Include:</li>
