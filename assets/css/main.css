@@ -56,10 +56,8 @@ html {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font: 1.1em Arial, Helvetica, sans-serif;
-	/*background: var(
-		--luminous-dusk
-	); /* --pale-ocean, --blush-light-purple, --midnight */
+	font: 1.1em;
+	font-family: Lora, "Times New Roman", Times, serif;
 }
 
 .logo {
@@ -91,6 +89,7 @@ a {
 	text-decoration: none;
 	font-size: 1.3em;
 	line-height: 1.6em;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 	color: var(--text);
 }
 
@@ -102,14 +101,24 @@ nav ul:hover {
 h1 {
 	font-size: 2em;
 	text-align: center;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
 h2 {
+	text-align: center;
 	font-size: 1.5em;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
 h4 {
 	align-items: center;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+
+h3,
+h5,
+h6 {
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
 /* Button Styles */
@@ -160,7 +169,7 @@ input[type="submit"]:active {
 .parallax1 {
 	background-image: url(../images/happy-family.jpg);
 	min-height: 30vh;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -170,7 +179,7 @@ input[type="submit"]:active {
 .parallax2 {
 	background-image: url(../images/css-staff-23.jpg);
 	min-height: 35vh;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -188,6 +197,7 @@ input[type="submit"]:active {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	list-style: none;
 	background: var(--css-linear-flip);
 }
 
@@ -199,8 +209,8 @@ input[type="submit"]:active {
 }
 
 .services {
-	flex: 1 1 30%;
-	margin: 10px 20px;
+	margin: 0 20px;
+	width: 100%;
 }
 
 .services img {
@@ -211,27 +221,19 @@ input[type="submit"]:active {
 /* Therapy Styles */
 
 .therapy-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	background: var(--css-top-mid);
+	display: static;
+	background: var(--css-linear-flip);
 }
 
 .therapy-container2 {
-	width: 75%;
-	background: var(--css-top-mid);
+	width: 100%;
+	background: var(--css-linear-flip);
 	margin: 0 auto;
-	padding: 50px;
-}
-
-.therapy {
-	display: flex;
-	align-items: center;
+	padding: 5px;
 }
 
 .therapy img {
-	width: 40%;
-	margin: 20px;
+	width: 100%;
 	border-radius: 10px;
 }
 
@@ -254,6 +256,7 @@ input[type="submit"]:active {
 
 .staff ul {
 	list-style: none;
+	margin-left: -35px;
 }
 
 .staff img {
@@ -262,11 +265,31 @@ input[type="submit"]:active {
 	border-radius: 10px;
 }
 
+.dristre img {
+	width: 100%;
+}
+
 .staff2 {
-	display: flex;
+	display: block;
+}
+
+.staff2 ul {
+	list-style: none;
+	margin-left: -35px;
 }
 
 .staff2 img {
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 10px;
+	z-index: 1000;
+}
+
+.pam {
+	display: block;
+}
+
+.pam img {
 	width: 100%;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -319,22 +342,6 @@ article h6 {
 	width: 100%;
 }
 
-/* Location Styles */
-.location {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.location img {
-	width: 45%;
-}
-
-.location p {
-	font-size: 1.2em;
-	margin-left: 30px;
-}
-
 /* Contact Page Styles */
 .form-container {
 	padding: 10px;
@@ -373,7 +380,7 @@ article h6 {
 /* Footer Styles */
 
 footer {
-	background: var(--css-linear-flip);
+	background: var(--css-linear);
 }
 
 .advert {
@@ -412,8 +419,7 @@ footer {
 		min-height: 45vh;
 	}
 
-	.squeeze {
-		width: 70%;
+	.staff-body {
 		text-align: center;
 		margin: 0 auto;
 	}
@@ -432,6 +438,7 @@ footer {
 	/* Staff Page Styles*/
 
 	.staff2 {
+		display: flex;
 		text-align: center;
 		align-items: center;
 		justify-content: space-around;
@@ -458,9 +465,16 @@ footer {
 		margin: 0;
 	}
 
-	.mel h4,
-	h5 {
-		margin: 0;
+	.pam {
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.pam img {
+		max-width: 38%;
+		margin: 20px;
 	}
 
 	/* Footer Styles */
@@ -503,6 +517,34 @@ footer {
 		text-align: center;
 	}
 
+	/* Therapy Styles */
+
+	.therapy-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		background: var(--css-linear-flip);
+	}
+
+	.therapy-container2 {
+		background: var(--css-linear-flip);
+		margin: 0 auto;
+		padding: 50px;
+	}
+
+	.therapy {
+		display: flex;
+		align-items: center;
+	}
+
+	.therapy img {
+		width: 40%;
+		margin: 20px;
+		border-radius: 10px;
+	}
+
+	/* Contact Styles */
+
 	.input-div label {
 		margin-bottom: 10px;
 	}
@@ -512,6 +554,32 @@ footer {
 		width: 40%;
 		padding: 10px;
 		margin-bottom: 20px;
+	}
+
+	/* Location Styles */
+	.location {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.location img {
+		width: 45%;
+	}
+
+	.location p {
+		font-size: 1.2em;
+		margin-left: 30px;
+	}
+
+	/* Staff Styles */
+
+	.staff2 {
+		display: flex;
+	}
+
+	.pam {
+		display: flex;
 	}
 }
 
@@ -581,6 +649,7 @@ footer {
 	}
 
 	/* Hero Style */
+
 	.cta1 {
 		font-size: 2.3em;
 		position: absolute;
@@ -638,6 +707,18 @@ footer {
 		min-height: 90vh;
 	}
 
+	/* Services Styles */
+
+	.services {
+		flex: 1 1 30%;
+		margin: 10px 20px;
+	}
+
+	.services img {
+		width: 100%;
+		border-radius: 10px;
+	}
+
 	article {
 		width: 65%;
 		margin: 0 auto;
@@ -647,5 +728,16 @@ footer {
 	.column {
 		width: 33%;
 		margin: 60px 0;
+	}
+}
+
+@media screen and (min-width: 1190px) {
+	/* Hero Styles 8 */
+	.parallax1 {
+		background-attachment: fixed;
+	}
+
+	.parallax2 {
+		background-attachment: fixed;
 	}
 }

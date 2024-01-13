@@ -1,6 +1,6 @@
         <main>
             <h1>Meet Our Therapy Pups!</h1>
-            <div class="container">
+            <div class="container3">
                 <div class="column">
                     <figure>
                         <img src="assets/images/gumbo.jpg" alt="Meet Gumbo"  class="pups">

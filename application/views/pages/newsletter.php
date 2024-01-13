@@ -4,7 +4,7 @@
                 <h2>December 2023</h2>
                 <img src="assets/images/contact1223.png" alt="">
 
-                <h2>How Parents Can Encourage and Support Appropriate Social Skills When Spending Time with Friends</h2>
+                <h1>How to Encourage Appropriate Social Skills with Friends</h1>
                 <p>
                 <h6>From the desk of Erin Lozano, MEd, LPC-S, RPT-S</h6>
                 <h6>Director of Early Childhood</h6>
