@@ -383,6 +383,10 @@ footer {
 	background: var(--css-linear);
 }
 
+#approved {
+	width: 100%;
+}
+
 .advert {
 	color: white;
 	font-size: 0.9em;
@@ -541,6 +545,11 @@ footer {
 		width: 40%;
 		margin: 20px;
 		border-radius: 10px;
+	}
+
+	#approved {
+		width: 20%;
+		margin: 20px 0;
 	}
 
 	/* Contact Styles */
