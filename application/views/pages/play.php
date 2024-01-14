@@ -16,7 +16,7 @@
             <br>
             <div class= therapy-container2>
                 <section class="therapy">
-                    <img src="assets/images/SocialSkillsGroups.jpg" alt="Social Skills Groups" class="center-logo"> 
+                    <img src="assets/images/play.jpg" alt="Social Skills Groups" class="center-logo"> 
                     <div>
                         <p class="first-paragraph">
                         

@@ -10,12 +10,12 @@
                 <a href="/family"><h2>Family/Parenting Therapy</h2></a></a>
             </div>
             <hr>
-            <h1 id="teen">Teen and Family Therapy</h1>
+            <h1 id="teen">Teen and Adolescents Therapy</h1>
             <br>
             <br>
             <div class= therapy-container2>
                 <section class="therapy">
-                    <img src="assets/images/familyservices.jpg" alt="Child, Teen, Family" class="center-logo"> 
+                    <img src="assets/images/teen.jpg" alt="Child, Teen, Family" class="center-logo"> 
                     <div>
                         <p class="first-paragraph">  
                         

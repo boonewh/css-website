@@ -86,6 +86,18 @@
                     <img src="assets/images/roy.jpg" alt="Roy Rodriguez">
                     <div>
                         <h4>Roy Rodriguez, MSW, LMSW</h4>
+                        <ul>
+                            <li>Specializations Include:</li>
+                            <li>Adolescents through Adulthood</li>
+                            <li>Anxiety/Depression/Stress Management</li>
+                            <li>Trauma</li>
+                            <li>EMDR</li>
+                            <li>Mindfulness</li>
+                            <li>Behavioral Issues</li>
+                            <li>Self-Esteem and Body Issues</li>
+                            <li>Individual Therapy</li>
+                            <li>Group Social Skills Therapy</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -93,6 +105,8 @@
                     <div>
                         <h4>Mattie Crownover, MSW, LMSW</h4>
                         <ul>
+                            <li>Pre-School-Preadolescents, Children Through Young Adults</li>
+                            <li>Individual Therapy</li>
                             <li>Specializations Include:</li>
                             <li>Group Social Skills Therapy</li>
                             <li>Anxiety/Depression/Stress Management</li>

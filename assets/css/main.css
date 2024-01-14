@@ -68,7 +68,7 @@ html {
 #mainLogo {
 	width: 40%;
 	padding: 0;
-	margin-top: 5px;
+	margin-top: 5px 0;
 }
 
 /* Navigation Styles */
@@ -98,6 +98,7 @@ nav ul:hover {
 	display: block;
 }
 
+/* Heading Styles */
 h1 {
 	font-size: 2em;
 	text-align: center;
@@ -616,7 +617,6 @@ footer {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 10px;
 		font-size: 1em;
 		font-weight: bold;
 	}
@@ -636,7 +636,7 @@ footer {
 	}
 
 	.navFirst ul li {
-		margin-left: 50px;
+		margin-left: 35px;
 		font-size: 0.8em;
 	}
 

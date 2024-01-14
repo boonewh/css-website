@@ -4,73 +4,66 @@ class Pages extends CI_Controller {
         private $homeData = [
                 'title' => "Center for Social Success || Dallas, Tx.",
                 'description' => "Let us help you in all of your social interactions. Family, individual and group therapy including animal assisted services",
-                'css' => "assets/css/main.css"
         ];
 
         private $staffData = [
                 'title' => "Meet Our Professionals",
                 'description' => "CSS Proffesionals, specializing in a wide variety of services to help you every day.",
-                'css' => "assets/css/main.css",
         ];
 
         private $pupsData = [
                 'title' => "Meet the Therapy Pups",
                 'description' => "Our pups are here to help you find fuzzy hope. All are small breed and hypoallergenic.",
-                'css' => "assets/css/main.css",
         ];
 
         private $newsletterData = [
                 'title' => "CSS Newsletter",
                 'description' => "The monthly newletter from the desk of Erin Lozano.",
-                'css' => "assets/css/main.css",
         ];
 
         private $locationData = [
                 'title' => "CSS Location",
                 'description' => "Our CSS office location. Call for more information or an appointment.",
-                'css' => "assets/css/main.css",
         ];
 
         private $contactData = [
                 'title' => "CSS Contact Page",
                 'description' => "Sends an email to the CSS Office. Our office staff will contact you soon if you use our contact page.",
-                'css' => "assets/css/main.css",
         ];
 
         private $socialData = [
                 'title' => "CSS Social Skills Group",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'css' => "assets/css/main.css",
         ];
 
         private $playData = [
                 'title' => "CSS Play Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'css' => "assets/css/main.css",
         ];
 
         private $teenData = [
                 'title' => "CSS Teen and Adolescents Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'css' => "assets/css/main.css",
         ];
 
         private $animalData = [
                 'title' => "CSS Aminal Assited Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'css' => "assets/css/main.css",
         ];
 
         private $adultData = [
                 'title' => "CSS Young Adult and Adult Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'css' => "assets/css/main.css",
         ];
 
         private $familyData = [
                 'title' => "CSS Family/Parenting Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'css' => "assets/css/main.css",
+        ];
+
+        private $scheduleData = [
+                'title' => "CSS Group Therapy Schedule",
+                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
         ];
 
         public function view($page = 'home')
@@ -107,6 +100,8 @@ class Pages extends CI_Controller {
                         $data = $this->locationData;
                 } else if ($page === 'contact') {
                         $data = $this->contactData;
+                } else if ($page === 'schedule') {
+                        $data = $this->scheduleData;
                 } else {
                         show_404();
                 }

@@ -11,12 +11,12 @@
                 </div>
                 <div class="services">
                     <a href="/play"><h2>Play Therapy</h2></a>
-                    <a href="/play"><img src="assets/images/familyservices.jpg" alt=""></a>
+                    <a href="/play"><img src="assets/images/play.jpg" alt=""></a>
                     <p class="servPar"></p>
                 </div>
                 <div class="services">
                     <a href="/teen"><h2>Teen and Adolescents Therapy</h2></a>
-                    <a href="/teen"><img src="assets/images/animal-assist.jpg" alt=""></a>
+                    <a href="/teen"><img src="assets/images/teen.jpg" alt=""></a>
                     <p class="servPar"></p>
                 </div>
                 <div class="services">
@@ -26,7 +26,7 @@
                 </div>
                 <div class="services">
                     <a href="/adult"><h2 id="serv">Young Adult and Adult Therapy</h2></a>
-                    <a href="/adult"><img src="assets/images/SocialSkillsGroups.jpg" alt=""></a>
+                    <a href="/adult"><img src="assets/images/AdultServices.jpg" alt=""></a>
                     <p class="servPar"></p>
                 </div>
                 <div class="services">
