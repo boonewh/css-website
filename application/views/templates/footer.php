@@ -1,6 +1,8 @@
 		<footer>
 			<div class="foot">
+				<a href="https://www.google.com/maps/search/?api=1&query=12880+Hillcrest+Rd+Ste+105+Dallas+Tx+75230" target="_blank">
 				<h3>12880 Hillcrest Rd, Ste 105, Dallas, Tx 75230</h3>
+				</a>
 				<h3>972-404-3001</h3>
 			</div>
 			<div class="foot2">					

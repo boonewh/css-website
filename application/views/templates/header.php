@@ -41,7 +41,7 @@
 						<li><a href="/staff">Our Staff</a></li>
 						<li><a href="/pups">Therapy Pups</a></li>
 						<li><a href="/newsletter">Newsletter</a></li>
-						<li><a href="https://center4socialsuccess.clientsecure.me">Parent Portal</a></li>
+						<li><a href="https://center4socialsuccess.clientsecure.me" target="_blank">Parent Portal</a></li>
 						<li><a href="/schedule">Group Schedules</a></li>
 						<li><a href="/location">Location</a></li>
 						<li><a href="/contact">Contact Us</a></li>

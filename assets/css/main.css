@@ -406,6 +406,11 @@ footer {
 	background: var(--css-linear);
 }
 
+.foot a {
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
 #approved {
 	width: 100%;
 }
@@ -624,15 +629,17 @@ footer {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-
-	.location img {
-		width: 45%;
+		max-width: 100%;
 	}
 
 	.location p {
 		font-size: 1.2em;
 		margin-left: 30px;
+	}
+
+	.maplink {
+		width: 500px;
+		height: auto;
 	}
 
 	/* Staff Styles */
