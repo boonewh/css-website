@@ -332,6 +332,28 @@ article h6 {
 	margin: 0;
 }
 
+/* Schedule Styles */
+.table {
+	background: var(--css-linear-flip);
+	margin-top: 5px;
+	padding: 50px 0;
+}
+
+.staffpic img {
+	width: 100%;
+	border-radius: 40%;
+}
+
+.thead {
+	font-size: 1em;
+}
+
+.table1,
+.table2 {
+	width: 100%;
+	border: 2px solid black;
+}
+
 /* Location Styles */
 
 .location {
@@ -475,11 +497,11 @@ footer {
 		text-align: center;
 		align-items: center;
 		justify-content: space-around;
+		width: 100%;
 	}
 
 	.pam img {
-		max-width: 38%;
-		margin: 20px;
+		max-width: 34%;
 	}
 
 	/* Footer Styles */
@@ -551,6 +573,37 @@ footer {
 	#approved {
 		width: 20%;
 		margin: 20px 0;
+	}
+
+	/* Schedule Styles */
+
+	.staffpic {
+		display: block;
+		text-align: center;
+	}
+
+	.staffpic img {
+		display: inline-block;
+		width: 50%;
+	}
+
+	.table2 {
+		margin-left: auto;
+		margin-right: 20%;
+		margin-top: 20px;
+		width: 40%;
+		font-size: 1.5em;
+		text-align: center;
+		border: 2px solid black;
+	}
+
+	.table1 {
+		margin-left: 20%;
+		margin-top: 20px;
+		width: 40%;
+		font-size: 1.5em;
+		text-align: center;
+		border: 2px solid black;
 	}
 
 	/* Contact Styles */
