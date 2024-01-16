@@ -368,6 +368,24 @@ article h6 {
 /* Contact Page Styles */
 .form-container {
 	padding: 10px;
+	font-weight: bold;
+}
+
+.checkbox-group {
+	text-align: left; /* Align checkboxes to the left */
+	padding-left: 20px; /* Add some padding to indent the checkboxes */
+	margin: 10px 0; /* Space above and below the checkbox group */
+	display: inline-block; /* Keep the group in line with other form elements */
+}
+
+.checkbox-group input[type="checkbox"] {
+	vertical-align: middle; /* Align checkbox vertically with the label */
+	margin-right: 5px; /* Space between checkbox and label */
+}
+
+.checkbox-group label {
+	display: inline-block; /* Each label on the same line as the checkbox */
+	margin-bottom: 5px; /* Space below each pair */
 }
 
 #msg {
@@ -384,6 +402,7 @@ article h6 {
 }
 
 .input-div input[type="text"],
+.input-div input[type="tel"],
 .input-div textarea {
 	width: 100%;
 	padding: 8px;
@@ -392,6 +411,7 @@ article h6 {
 }
 
 .input-div input[type="text"]:hover,
+.input-div input[type="tel"]:hover,
 .input-div textarea:hover {
 	border-color: #007bff;
 }
@@ -545,10 +565,6 @@ footer {
 		width: 15%;
 	}
 
-	.form-container {
-		text-align: center;
-	}
-
 	/* Therapy Styles */
 
 	.therapy-container {
@@ -613,11 +629,16 @@ footer {
 
 	/* Contact Styles */
 
+	.form-container {
+		text-align: center;
+	}
+
 	.input-div label {
 		margin-bottom: 10px;
 	}
 
 	.input-div input[type="text"],
+	.input-div input[type="tel"],
 	.input-div textarea {
 		width: 40%;
 		padding: 10px;

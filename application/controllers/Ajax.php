@@ -10,20 +10,23 @@ class Ajax extends CI_Controller {
                 $name = strip_tags(trim($this->input->post('name')));
                 $email = strip_tags(trim($this->input->post('email')));
                 $confirmEmail = strip_tags(trim($this->input->post('confirmEmail')));
-                $subject = strip_tags(trim($this->input->post('subject')));
+                $phone = strip_tags(trim($this->input->post('phone')));
+                $selectedCounselor = strip_tags(trim($this->input->post('counselor')));
                 $message = strip_tags(trim($this->input->post('message')));
 
-                if (!empty($name) && !empty($email) && $email === $confirmEmail && !empty($subject) && !empty($message)) {
+                if (!empty($name) && !empty($email) && $email === $confirmEmail && !empty($phone) && !empty($message)) {
                     // Prepare and send the email
                     $to = 'boonewh@gmail.com'; 
-                    $emailSubject = "New Contact Form Submission: " . $subject;
+                    $emailSubject = "New CSS Dallas Contact Form Submission";
                     $emailBody = "Name: $name\n";
                     $emailBody .= "Email: $email\n";
+                    $emailBody .= "Phone: $phone\n";
+                    $emailBody .= "Selected Counselor: $selectedCounselor\n";
                     $emailBody .= "Message: $message\n";
 
                     $headers = "MIME-Version: 1.0\r\n";
                     $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
-                    $headers .= 'From: <no-reply@williamboone.net>' . "\r\n";
+                    $headers .= 'From: <no-reply@cssdallas.com>' . "\r\n";
 
                     if (mail($to, $emailSubject, $emailBody, $headers)) {
                         echo "okay";

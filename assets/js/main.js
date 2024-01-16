@@ -1,11 +1,5 @@
 "use strict";
 
-/*************************************
-Name: William Boone
-ITSE 2302 Int Web Prog - Fall 2023
-Purpose: Final Project
-**************************************/
-
 // Function to validate email format
 function validEmail(email) {
     var re =
@@ -13,26 +7,36 @@ function validEmail(email) {
     return re.test(email);
 }
 
+function validPhone(phoneNumber) {
+    var re = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+    return re.test(phoneNumber);
+}
+
 function clearForm() {
     $('#name').val('');
     $('#from').val('');
     $('#confirm').val('');
-    $('#subject').val('');
-    $('#message').val('');
+    $('#phone').val('');
+    $('#whoChoice').val('');
+    $('#childAge').val('')
+    $('#message').val('')
     $('#msg').html('<br>');
 }
 
-function sendData(name, email, confirmEmail, subject, message) {
+function sendData(name, email, confirmEmail, phone, selectedCounselor, whoChoice, childAge, message) {
     let msgArea = $("#msg");
 
     $.ajax({
-        url: 'processnames',
+        url: 'Ajax/processnames',
         type: 'POST',
         data: {
             name: name,
             email: email,
             confirmEmail: confirmEmail,
-            subject: subject,
+            phone: phone,
+            counselor: selectedCounselor,
+            whoChoice: whoChoice,
+            childAge: childAge,
             message: message
         },
         success: function (val) {
@@ -58,13 +62,22 @@ function validate() {
     var name = $('#name').val().trim();
     var email = $('#from').val().trim();
     var confirmEmail = $('#confirm').val().trim();
-    var subject = $('#subject').val().trim();
+    var phone = $('#phone').val().trim();
+    var whoChoice = $('#whoChoice').val().trim();
+    var childAge = $('#childAge').val().trim(); 
     var msg = $('#message').val().trim();
+    var selectedCounselor = "";
+    $('.checkbox-group input[type="checkbox"]:checked').each(function() {
+        selectedCounselor = $(this).next('label').text(); // Get the label text of the checked checkbox
+    });
+    
 
     $('#name').val(name);
     $('#from').val(email);
     $('#confirm').val(confirmEmail);
-    $('#subject').val(subject);
+    $('#phone').val(phone);
+    $('#whoChoice').val(whoChoice);
+    $('#childAge').val(childAge);
     $('#message').val(msg);
 
     if (name === "") {
@@ -79,8 +92,14 @@ function validate() {
         message += "Email and Confirm Email do not match.<br>";
     }
 
-    if (subject === "") {
-        message += "Subject cannot be empty.<br>";
+    if (phone === "") {
+        message += "Phone cannot be empty.<br>";
+    } else if (!validPhone(phone)) {
+        message += "Invalid phone format. Format should be 123-456-7890.<br>";
+        }
+    
+    if (!selectedCounselor) {
+        message += "Please select a counselor.<br>";
     }
 
     if (msg === "") {
@@ -88,7 +107,7 @@ function validate() {
     }
 
     if (message === "") {
-        sendData(name, email, confirmEmail, subject, msg);
+        sendData(name, email, confirmEmail, phone, selectedCounselor, whoChoice, childAge, msg);
     } else {
         msgArea.html(message);
     }
