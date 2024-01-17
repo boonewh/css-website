@@ -224,18 +224,27 @@ input[type="submit"]:active {
 .therapy-container {
 	display: static;
 	background: var(--css-linear-flip);
+	width: 100%;
 }
 
 .therapy-container2 {
-	width: 100%;
 	background: var(--css-linear-flip);
-	margin: 0 auto;
-	padding: 5px;
+	padding: 20px 0;
+	width: 100%;
 }
 
 .therapy img {
+	display: block;
 	width: 100%;
 	border-radius: 10px;
+}
+
+.therapy h2 {
+	font-size: 2em;
+}
+
+.therapy h3 {
+	font-size: 1.1em;
 }
 
 /* Staff Page Styles */
@@ -574,20 +583,14 @@ footer {
 		background: var(--css-linear-flip);
 	}
 
-	.therapy-container2 {
-		background: var(--css-linear-flip);
-		margin: 0 auto;
-		padding: 50px;
-	}
-
 	.therapy {
-		display: flex;
-		align-items: center;
+		width: 55%;
+		margin: 20px auto;
 	}
 
 	.therapy img {
-		width: 40%;
-		margin: 20px;
+		width: 60%;
+		margin: 0 auto;
 		border-radius: 10px;
 	}
 
