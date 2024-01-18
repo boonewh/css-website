@@ -10,11 +10,13 @@
                 <a href="/family"><h2>Family/Parenting Therapy</h2></a></a>
             </div>
             <hr>
-            <h1 id="adult">Young Adult and Adult Therapy</h1>
-            <br>
-            <br>
-            <div class= therapy-container2>
-                <section class="therapy">
+            <div class="therapy-container2">
+                <h1 id="adult">Young Adult and Adult Therapy</h1>
+                <br>
+               
+            </div>
+            <div class="therapy">
+                <section>
                     <img src="assets/images/AdultServices.jpg" alt="Adult Services">
                     <h2>Embark on a Journey of Self-Discovery and Growth</h2>
                     <p>Embark on a journey of self-discovery and growth with The Center for Social Success. Our dedicated therapists specialize in individual talk therapy, addressing a range of concerns including anger, anxiety, depression, marital issues, and life transitions. We create a safe, non-judgmental space to work collaboratively on your well-being.</p>

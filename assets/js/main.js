@@ -21,6 +21,7 @@ function clearForm() {
     $('#childAge').val('')
     $('#message').val('')
     $('#msg').html('<br>');
+    $('.radio-group input[type="radio"]').prop('checked', false);
 }
 
 function sendData(name, email, confirmEmail, phone, selectedCounselor, whoChoice, childAge, message) {
@@ -66,10 +67,7 @@ function validate() {
     var whoChoice = $('#whoChoice').val().trim();
     var childAge = $('#childAge').val().trim(); 
     var msg = $('#message').val().trim();
-    var selectedCounselor = "";
-    $('.checkbox-group input[type="checkbox"]:checked').each(function() {
-        selectedCounselor = $(this).next('label').text(); // Get the label text of the checked checkbox
-    });
+    var selectedCounselor = $('.radio-group input[type="radio"]:checked').val();
     
 
     $('#name').val(name);

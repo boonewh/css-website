@@ -147,6 +147,12 @@ input[type="submit"]:active {
 	color: var(--secondary-text);
 }
 
+.button-container {
+	display: flex;
+	justify-content: center; /* Horizontally center the flex items */
+	align-items: center;
+}
+
 /* Call to Action */
 
 .cta1 {
@@ -280,7 +286,12 @@ input[type="submit"]:active {
 }
 
 .staff2 {
-	display: block;
+	display: flex;
+	flex-direction: column;
+}
+
+.staff2 div {
+	order: 2;
 }
 
 .staff2 ul {
@@ -289,6 +300,7 @@ input[type="submit"]:active {
 }
 
 .staff2 img {
+	order: 1;
 	width: 100%;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -296,10 +308,16 @@ input[type="submit"]:active {
 }
 
 .pam {
-	display: block;
+	display: flex;
+	flex-direction: column;
+}
+
+.pam div {
+	order: 2;
 }
 
 .pam img {
+	order: 1;
 	width: 100%;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -375,26 +393,9 @@ article h6 {
 }
 
 /* Contact Page Styles */
+
 .form-container {
-	padding: 10px;
 	font-weight: bold;
-}
-
-.checkbox-group {
-	text-align: left; /* Align checkboxes to the left */
-	padding-left: 20px; /* Add some padding to indent the checkboxes */
-	margin: 10px 0; /* Space above and below the checkbox group */
-	display: inline-block; /* Keep the group in line with other form elements */
-}
-
-.checkbox-group input[type="checkbox"] {
-	vertical-align: middle; /* Align checkbox vertically with the label */
-	margin-right: 5px; /* Space between checkbox and label */
-}
-
-.checkbox-group label {
-	display: inline-block; /* Each label on the same line as the checkbox */
-	margin-bottom: 5px; /* Space below each pair */
 }
 
 #msg {
@@ -408,6 +409,7 @@ article h6 {
 .input-div label {
 	display: block;
 	margin-bottom: 5px;
+	word-wrap: break-word;
 }
 
 .input-div input[type="text"],
@@ -425,8 +427,18 @@ article h6 {
 	border-color: #007bff;
 }
 
-#contact-form textarea {
-	resize: vertical;
+.radio-group {
+	margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"],
+.radio-group label {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.radio-group input[type="radio"] {
+	margin-right: 5px;
 }
 
 /* Footer Styles */
@@ -480,11 +492,6 @@ footer {
 		min-height: 45vh;
 	}
 
-	.staff-body {
-		text-align: center;
-		margin: 0 auto;
-	}
-
 	/* Services Page Styles */
 
 	.first-paragraph::first-letter {
@@ -498,16 +505,29 @@ footer {
 
 	/* Staff Page Styles*/
 
-	.staff2 {
-		display: flex;
+	.staff-body {
 		text-align: center;
-		align-items: center;
-		justify-content: space-around;
+		margin: 0 auto;
 	}
 
-	.staff2 img {
-		max-width: 45%;
-		margin: 20px;
+	.staff2,
+	.pam {
+		display: flex;
+		flex-direction: row; /* side-by-side layout */
+		align-items: center; /* Align items vertically in the center */
+	}
+
+	.staff2 img,
+	.staff2 div,
+	.pam div {
+		order: 0; /* Reset the order */
+		width: 50%; /* Adjust width as needed */
+	}
+
+	.pam img {
+		order: 0;
+		width: 38%;
+		margin-right: 80px;
 	}
 
 	.dristre {
@@ -524,18 +544,6 @@ footer {
 	.dristre h4,
 	h5 {
 		margin: 0;
-	}
-
-	.pam {
-		display: flex;
-		text-align: center;
-		align-items: center;
-		justify-content: space-around;
-		width: 100%;
-	}
-
-	.pam img {
-		max-width: 34%;
 	}
 
 	/* Footer Styles */
@@ -631,21 +639,9 @@ footer {
 	}
 
 	/* Contact Styles */
-
 	.form-container {
-		text-align: center;
-	}
-
-	.input-div label {
-		margin-bottom: 10px;
-	}
-
-	.input-div input[type="text"],
-	.input-div input[type="tel"],
-	.input-div textarea {
-		width: 40%;
-		padding: 10px;
-		margin-bottom: 20px;
+		width: 50%;
+		margin: 0 auto;
 	}
 
 	/* Location Styles */
@@ -667,14 +663,6 @@ footer {
 	}
 
 	/* Staff Styles */
-
-	.staff2 {
-		display: flex;
-	}
-
-	.pam {
-		display: flex;
-	}
 }
 
 @media screen and (min-width: 1025px) {
