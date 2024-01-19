@@ -105,6 +105,7 @@
                     <div>
                         <h4>Mattie Crownover, MSW, LMSW</h4>
                         <ul>
+                            <li>Specializations Include:</li>
                             <li>Pre-School-Preadolescents, Children Through Young Adults</li>
                             <li>Individual Therapy</li>
                             <li>Specializations Include:</li>
