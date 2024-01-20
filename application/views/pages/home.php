@@ -5,7 +5,7 @@
 			<div class="container">
 
                 <div class="services">
-                    <a href="/social"><h2>Social Skills Group</h2></a>
+                    <a href="/social"><h2>Social Skills Groups</h2></a>
                     <a href="/social"><img src="assets/images/SocialSkillsGroups.jpg" alt=""></a>
                     <p class="servPar"></p> 
                 </div>

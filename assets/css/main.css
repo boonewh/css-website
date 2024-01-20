@@ -60,29 +60,54 @@ html {
 	font-family: Lora, "Times New Roman", Times, serif;
 }
 
-.logo {
-	text-align: center;
-	background-color: var(--primary);
+/* Navigation Styles */
+
+.navLogo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navFirst {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 #mainLogo {
-	width: 40%;
-	padding: 0;
-	margin-top: 5px 0;
+	width: 30%;
+	height: auto;
+	margin: 15px auto;
 }
 
-/* Navigation Styles */
+#navicon {
+	width: 30px;
+	height: auto;
+	margin-right: 5px;
+	margin-top: 50px;
+}
+
+.nav-spacer {
+	width: 35px;
+}
 
 nav {
 	background: var(--css-linear);
-}
-
-nav ul {
-	display: none;
 	margin: 0;
 	padding: 0;
-	border: 0;
+}
+
+.navFirst ul {
+	display: none;
+	position: absolute; /* Position the menu below the nav bar */
+	top: 100%;
+	left: 0;
 	list-style: none;
+	background: #fff;
+	z-index: 1; /* Ensures the dropdown is on top of other elements */
+	width: 100%; /* Set the width of the dropdown menu */
 }
 
 a {
@@ -216,8 +241,12 @@ input[type="submit"]:active {
 }
 
 .services {
-	margin: 0 20px;
+	margin: 0 10px;
 	width: 100%;
+}
+
+.services a {
+	font-size: 1.2em;
 }
 
 .services img {
@@ -275,10 +304,19 @@ input[type="submit"]:active {
 	margin-left: -35px;
 }
 
+.staff ul li {
+	font-size: 1.3em;
+}
+
 .staff img {
 	width: 100%;
 	margin-top: 20px;
 	border-radius: 10px;
+}
+
+.dristre {
+	text-align: center;
+	font-size: 1.3em;
 }
 
 .dristre img {
@@ -287,6 +325,7 @@ input[type="submit"]:active {
 
 .staff2 {
 	display: flex;
+	text-align: center;
 	flex-direction: column;
 }
 
@@ -307,9 +346,29 @@ input[type="submit"]:active {
 	z-index: 1000;
 }
 
+.melissa {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.melissa div {
+	order: 2;
+}
+
+.melissa img {
+	order: 1;
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
 .pam {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
+	font-size: 1.3em;
 }
 
 .pam div {
@@ -373,6 +432,11 @@ article h6 {
 
 .thead {
 	font-size: 1em;
+	text-align: center;
+}
+
+.sm-thead {
+	text-align: left;
 }
 
 .table1,
@@ -511,7 +575,8 @@ footer {
 	}
 
 	.staff2,
-	.pam {
+	.pam,
+	.melissa {
 		display: flex;
 		flex-direction: row; /* side-by-side layout */
 		align-items: center; /* Align items vertically in the center */
@@ -519,7 +584,9 @@ footer {
 
 	.staff2 img,
 	.staff2 div,
-	.pam div {
+	.pam div,
+	.melissa img,
+	.melissa div {
 		order: 0; /* Reset the order */
 		width: 50%; /* Adjust width as needed */
 	}
@@ -623,24 +690,22 @@ footer {
 		margin-left: auto;
 		margin-right: 20%;
 		margin-top: 20px;
-		width: 40%;
+		width: 50%;
 		font-size: 1.5em;
-		text-align: center;
 		border: 2px solid black;
 	}
 
 	.table1 {
 		margin-left: 20%;
 		margin-top: 20px;
-		width: 40%;
+		width: 55%;
 		font-size: 1.5em;
-		text-align: center;
 		border: 2px solid black;
 	}
 
 	/* Contact Styles */
 	.form-container {
-		width: 50%;
+		width: 55%;
 		margin: 0 auto;
 	}
 
@@ -667,54 +732,39 @@ footer {
 
 @media screen and (min-width: 1025px) {
 	/* Header Styles */
-	.navLogo {
-		display: flex;
-	}
 
 	#mainLogo {
-		width: 60%;
-		margin-top: 5px;
-	}
-
-	html {
-		font-size: 1.1em;
+		width: 10%;
+		margin: 10px;
 	}
 
 	/* Navigation Styles */
-	a#navicon {
-		display: none;
-	}
-
-	nav {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		font-size: 1em;
-		font-weight: bold;
-	}
-
-	.navFirst {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-	}
 
 	.navFirst ul {
-		list-style-type: none;
-		display: flex;
+		position: static; /* Reset position to flow in document */
+		display: flex; /* Display menu items in a row */
+		justify-content: space-evenly; /* Start aligning menu items */
+		align-items: center; /* Center items vertically */
 		margin: 0;
 		padding: 0;
+		background: transparent;
+		width: auto; /* Allow width to grow as needed */
 	}
 
 	.navFirst ul li {
-		margin-left: 35px;
-		font-size: 0.8em;
+		margin: 0 15px; /* Space between menu items */
 	}
 
 	.navFirst ul li a {
 		text-decoration: none;
 		color: black;
+		padding: 10px 5px; /* Adjust padding as needed */
+		font-size: 0.8em;
+	}
+
+	#navicon,
+	.nav-spacer {
+		display: none; /* Hide navicon and spacer on PC screens */
 	}
 
 	a#navicon:hover + ul,
@@ -724,9 +774,7 @@ footer {
 
 	.navFirst li a:active,
 	.navFirst li a:hover {
-		display: flex;
-		color: rgba(0, 0, 0);
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	}
 
 	/* Hero Style */
@@ -734,7 +782,7 @@ footer {
 	.cta1 {
 		font-size: 2.3em;
 		position: absolute;
-		top: 90%;
+		top: 86%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
@@ -791,7 +839,7 @@ footer {
 	/* Services Styles */
 
 	.services {
-		flex: 1 1 30%;
+		flex: 1 1 35%;
 		margin: 10px 20px;
 	}
 

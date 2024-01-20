@@ -30,10 +30,9 @@
 				<p id="topTwo">Call Us: 972-404-3001</p>
 			</div>
 			<div class=navLogo>
-				<div class="logo">
-					<img id="mainLogo" src="assets/images/csslogo-white.png" alt="Logo">
-				</div>
 				<nav class="navFirst">
+					<div class="nav-spacer"></div> <!-- Invisible 	flex item to center the logo -->
+					<img id="mainLogo" src="assets/images/csslogo-white.png" alt="Logo">
 					<a href="#" id="navicon"><img src="assets/images/navicon.png" alt=""></a>
 					<ul>
 						<li><a href="/home">Home Page</a></li>

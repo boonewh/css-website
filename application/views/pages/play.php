@@ -2,7 +2,7 @@
             
             <hr>
             <div class="therapy-container">
-                <a href="/social"><h2>Social Skills Group</h2></a></a>
+                <a href="/social"><h2>Social Skills Groups</h2></a></a>
                 <a href="/play"><h2>Play Therapy</h2></a></a>
                 <a href="/teen"><h2>Teen and Adolescents Therapy</h2></a></a>
                 <a href="/animal"><h2>Animal Assisted Therapy</h2></a></a>

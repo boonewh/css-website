@@ -8,13 +8,13 @@
         <div>
             <table class="table1">
                 <tr class="thead">
-                    <th colspan="4">Monday</th>
+                    <th colspan="4">MONDAY</th>
                 </tr>
-                <tr>
+                <tr class="sm-thead">
                     <th>Time</th>
                     <th>Group</th>
                     <th>Age Group</th>
-                    <th>Names</th>
+                    <th>Lead Therapist</th>
                 </tr>
                 <tr>
                     <td>4:30</td>
@@ -38,13 +38,13 @@
                     <td>5:30</td>
                     <td>Girls</td>
                     <td>13 y/o</td>
-                    <td>Deliah/Dyad</td>
+                    <td>Deliah</td>
                 </tr>
                 <tr>
                     <td>6:30</td>
                     <td>CoEd</td>
                     <td>14-16 y/o</td>
-                    <td>Deliah/Dyad</td>
+                    <td>Deliah</td>
                 </tr>
             </table>
         </div">
@@ -52,19 +52,19 @@
         <div>
             <table class="table2">
                 <tr class="thead">
-                    <th colspan="4">Tuesday</th>
+                    <th colspan="4">TUESDAY</th>
                 </tr>
-                <tr>
+                <tr class="sm-thead">
                     <th>Time</th>
                     <th>Group</th>
                     <th>Age Group</th>
-                    <th>Names</th>
+                    <th>Lead Therapist</th>
                 </tr>
                 <tr>
                     <td>4:30</td>
                     <td>Boys</td>
                     <td>6-8 y/o</td>
-                    <td>Erin/No co</td>
+                    <td>Erin</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
@@ -84,13 +84,13 @@
         <div>
             <table class="table1">
                 <tr class="thead">
-                    <th colspan="4">Wednesday</th>
+                    <th colspan="4">WEDNESDAY</th>
                 </tr>
-                <tr>
+                <tr class="sm-thead">
                     <th>Time</th>
                     <th>Group</th>
                     <th>Age Group</th>
-                    <th>Names</th>
+                    <th>Lead Therapist</th>
                 </tr>
                 <tr>
                     <td>3:30</td>
@@ -116,13 +116,13 @@
         <div>
             <table  class="table2">
                 <tr class="thead">
-                    <th colspan="4">Thursday</th>
+                    <th colspan="4">THURSDAY</th>
                 </tr>
-                <tr>
+                <tr class="sm-thead">
                     <th>Time</th>
                     <th>Group</th>
                     <th>Age Group</th>
-                    <th>Names</th>
+                    <th>Lead Therapist</th>
                 </tr>
                 <tr>
                     <td>4:30</td>
@@ -148,13 +148,13 @@
         <div>    
             <table class="table1">
                 <tr class="thead">
-                    <th colspan="4">Saturday</th>
+                    <th colspan="4">SATURDAY</th>
                 </tr>
-                <tr>
+                <tr class="sm-thead">
                     <th>Time</th>
                     <th>Group</th>
                     <th>Age Group</th>
-                    <th>Names</th>
+                    <th>Lead Therapist</th>
                 </tr>
                 <tr>
                     <td>12:00</td>
