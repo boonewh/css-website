@@ -8,7 +8,7 @@
                 <div>
                     <p>Main Office:</p>
                     <p>12880 Hillcrest Rd</p>
-                    <p>Ste 105</p>
+                    <p>Ste J105</p>
                     <p>Dallas, Tx 75230</p>
                 </div>
             </div>   
