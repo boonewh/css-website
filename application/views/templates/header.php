@@ -17,7 +17,10 @@
 		<link rel="stylesheet" href="assets/css/main.css">  
 		<link rel="stylesheet" href="assets/css/navbar.css">
 		<!-- Google fonts below: Lora is body font, Cabin is headers font -->
-		<link rel="icon" href="assets/images/favicon.png" type="image/png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
@@ -26,8 +29,9 @@
 	<body>
 		<header>
 			<div id="toptop">
-				<p id="topOne">Social, Emotional, and Behavioral Skills</p>
-				<p id="topTwo">Call Us: 972-404-3001</p>
+				<p><a href="/social" id="topOne">Social, Emotional, and Behavioral Skills</a></p>
+				<p><a id="topThree" href="/contact">Email Us</a></p>
+				<p><a id="topTwo" href="tel:9724043001">Call Us: 972-404-3001</a></p>
 			</div>
 			<div class=navLogo>
 				<nav class="navFirst">

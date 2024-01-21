@@ -62,6 +62,15 @@ html {
 
 /* Navigation Styles */
 
+#toptop {
+	display: block;
+}
+
+#toptop p {
+	margin: 0;
+	padding: 0;
+}
+
 .navLogo {
 	display: flex;
 	justify-content: space-between;
@@ -512,7 +521,7 @@ footer {
 }
 
 .foot a {
-	font-size: 0.9em;
+	font-size: 1em;
 	text-decoration: underline;
 }
 
@@ -539,6 +548,10 @@ footer {
 	#topTwo {
 		margin: 5px 0;
 		padding: 0;
+	}
+
+	#topThree {
+		text-decoration: underline;
 	}
 
 	/* Header Styles */
@@ -618,6 +631,10 @@ footer {
 		padding-top: 10px;
 	}
 
+	.foot a {
+		font-size: 0.75em;
+	}
+
 	.foot {
 		display: flex;
 		justify-content: space-between;
@@ -642,7 +659,8 @@ footer {
 	#toptop {
 		display: flex;
 		justify-content: space-between;
-		font-size: 1em;
+		font-size: 0.75em;
+		font-family: Lora, "Times New Roman", Times, serif;
 	}
 
 	#mainLogo {
@@ -719,7 +737,8 @@ footer {
 
 	.location p {
 		font-size: 1.2em;
-		margin-left: 30px;
+		margin: 0 0 0 30px;
+		padding: 0;
 	}
 
 	.maplink {

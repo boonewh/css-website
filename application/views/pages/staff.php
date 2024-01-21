@@ -27,7 +27,7 @@
                 </div>
                 <div class="staff">
                     <img src="assets/images/holly.jpg" alt="Holly Fedro">
-                    <h4>Holly Fedro, MS, LCSW</h4>
+                    <h4>Holly Fedro, MS, LCSW-Supervisor</h4>
                     <h4>Adolescent and Adult Division Director</h4>
                     <ul>
                         <li>Specializations Include:</li>

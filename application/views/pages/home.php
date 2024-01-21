@@ -15,7 +15,7 @@
                     <p class="servPar"></p>
                 </div>
                 <div class="services">
-                    <a href="/teen"><h2>Teen and Adolescents Therapy</h2></a>
+                    <a href="/teen"><h2>Teen and Adolescent Therapy</h2></a>
                     <a href="/teen"><img src="assets/images/teen.jpg" alt=""></a>
                     <p class="servPar"></p>
                 </div>
@@ -30,7 +30,7 @@
                     <p class="servPar"></p>
                 </div>
                 <div class="services">
-                    <a href="/family"><h2 id="serv">Family/Parenting Therapy</h2></a>
+                    <a href="/family"><h2 id="serv">Family, Parenting and Sibling Therapy</h2></a>
                     <a href="/family"><img src="assets/images/familyservices.jpg" alt=""></a>
                     <p class="servPar"></p>
                 </div>
