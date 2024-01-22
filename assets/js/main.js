@@ -8,7 +8,8 @@ function validEmail(email) {
 }
 
 function validPhone(phoneNumber) {
-    var re = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+    var re = /^(?:\+?1[-.\s]?)?(?:\(?([2-9]\d{2})\)?[\s-]?)?([2-9]\d{2})[\s-]?(\d{4})(?: *x(\d+))?$/
+    ;
     return re.test(phoneNumber);
 }
 

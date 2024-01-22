@@ -14,6 +14,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content=<?=$description; ?>/> <!--Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy.-->
 		<title><?=$title; ?></title> <!--Center for Social Success || Dallas, Tx.-->
+		
 		<link rel="stylesheet" href="assets/css/main.css">  
 		<link rel="stylesheet" href="assets/css/navbar.css">
 		<!-- Google fonts below: Lora is body font, Cabin is headers font -->
@@ -27,28 +28,38 @@
 	</head>
 
 	<body>
-		<header>
-			<div id="toptop">
-				<p><a href="/social" id="topOne">Social, Emotional, and Behavioral Skills</a></p>
+		<div id="toptop">
+				<p><a href="/services" id="topOne">Social, Emotional, and Behavioral Skills</a></p>
 				<p><a id="topThree" href="/contact">Email Us</a></p>
 				<p><a id="topTwo" href="tel:9724043001">Call Us: 972-404-3001</a></p>
-			</div>
-			<div class=navLogo>
-				<nav class="navFirst">
-					<div class="nav-spacer"></div> <!-- Invisible 	flex item to center the logo -->
-					<img id="mainLogo" src="assets/images/csslogo-white.png" alt="Logo">
-					<a href="#" id="navicon"><img src="assets/images/navicon.png" alt=""></a>
-					<ul>
-						<li><a href="/home">Home Page</a></li>
-						<li><a href="/social">Services</a></li>
-						<li><a href="/staff">Our Staff</a></li>
-						<li><a href="/pups">Therapy Pups</a></li>
-						<li><a href="/newsletter">Newsletter</a></li>
-						<li><a href="https://center4socialsuccess.clientsecure.me" target="_blank">Parent Portal</a></li>
-						<li><a href="/schedule">Group Schedules</a></li>
-						<li><a href="/location">Location</a></li>
-						<li><a href="/contact">Contact Us</a></li>
-					</ul>
-				</nav>
-			</div>
+		</div>
+		<header>
+
+			<img src="/assets/images/csslogo-white.png" alt="" class="logo">
+
+			<input type="checkbox" id="menu-bar">
+        	<label for="menu-bar"><img src="assets/images/navicon.png" alt="" id="navicon"></label>
+			
+			<nav class="navbar">
+				<ul>
+					<li><a href="/home">Home Page</a></li>
+					<li><a href="#">Services</a>
+						<ul>
+							<li><a href="/social">Social Skills Group</a></li>
+							<li><a href="/play">Play Therapy</a></li>
+							<li><a href="/teen">Teen and Adolescent Therapy</a></li>
+							<li><a href="/animal">Animal Assisted Therapy</a></li>
+							<li><a href="/adult">Young Adult and Adult Therapy</a></li>
+							<li><a href="/family">Family/Parenting Therapy</a></li>
+						</ul>
+					</li>
+					<li><a href="/staff">Our Staff</a></li>
+					<li><a href="/pups">Therapy Pups</a></li>
+					<li><a href="/newsletter">Newsletter</a></li>
+					<li><a href="https://center4socialsuccess.clientsecure.me" target="_blank">Parent Portal</a></li>
+					<li><a href="/schedule">Group Schedules</a></li>
+					<li><a href="/location">Location</a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</nav>
 		</header>

@@ -31,6 +31,11 @@ class Pages extends CI_Controller {
                 'description' => "Sends an email to the CSS Office. Our office staff will contact you soon if you use our contact page.",
         ];
 
+        private $servicesData = [
+                'title' => "CSS Services",
+                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+        ];
+
         private $socialData = [
                 'title' => "CSS Social Skills Group",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
@@ -78,6 +83,8 @@ class Pages extends CI_Controller {
                     // Load the correct template data.
                 if ($page === 'home') {
                 $data = $this->homeData;
+                } else if ($page === 'services') {
+                        $data = $this->servicesData;
                 } else if ($page === 'social') {
                         $data = $this->socialData;
                 } else if ($page === 'play') {

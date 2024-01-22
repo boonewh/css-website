@@ -11,7 +11,7 @@
 				<img src="assets/images/MomApproved_Logo_2023.png" alt="DFW Child: Mom Approved" id="approved">
 			</div>
 			<div class="advert">
-				<p>2024 All Rights Reserved, Center for Social Success</p>
+				<p>2024 All Rights Reserved, The Center for Social Success</p>
 				<p>Website: Pathsix Web Design, by WB</p>
 			</div>
 		</footer>

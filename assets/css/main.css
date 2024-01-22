@@ -60,6 +60,12 @@ html {
 	font-family: Lora, "Times New Roman", Times, serif;
 }
 
+a {
+	text-decoration: none;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
+	color: var(--text);
+}
+
 /* Navigation Styles */
 
 #toptop {
@@ -71,65 +77,10 @@ html {
 	padding: 0;
 }
 
-.navLogo {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.navFirst {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
-
-#mainLogo {
-	width: 30%;
-	height: auto;
-	margin: 15px auto;
-}
-
-#navicon {
-	width: 30px;
-	height: auto;
-	margin-right: 5px;
-	margin-top: 50px;
-}
-
-.nav-spacer {
-	width: 35px;
-}
-
-nav {
+header {
 	background: var(--css-linear);
 	margin: 0;
 	padding: 0;
-}
-
-.navFirst ul {
-	display: none;
-	position: absolute; /* Position the menu below the nav bar */
-	top: 100%;
-	left: 0;
-	list-style: none;
-	background: #fff;
-	z-index: 1; /* Ensures the dropdown is on top of other elements */
-	width: 100%; /* Set the width of the dropdown menu */
-}
-
-a {
-	text-decoration: none;
-	font-size: 1.3em;
-	line-height: 1.6em;
-	font-family: Cabin, Arial, Helvetica, sans-serif;
-	color: var(--text);
-}
-
-a#navicon:hover + ul,
-nav ul:hover {
-	display: block;
 }
 
 /* Heading Styles */
@@ -264,6 +215,10 @@ input[type="submit"]:active {
 }
 
 /* Therapy Styles */
+
+#css-group {
+	display: none;
+}
 
 .therapy-container {
 	display: static;
@@ -469,6 +424,7 @@ article h6 {
 
 .form-container {
 	font-weight: bold;
+	font-size: 0.8em;
 }
 
 #msg {
@@ -512,6 +468,19 @@ article h6 {
 
 .radio-group input[type="radio"] {
 	margin-right: 5px;
+}
+
+.required-star {
+	color: red;
+	margin-left: 4px;
+	font-size: 0.65em;
+	vertical-align: super;
+}
+
+.required-message {
+	color: #333;
+	font-size: 0.7em;
+	margin-top: 20px;
 }
 
 /* Footer Styles */
@@ -570,6 +539,13 @@ footer {
 	}
 
 	/* Services Page Styles */
+
+	#css-group {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
 
 	.first-paragraph::first-letter {
 		font-size: 3rem;
@@ -750,52 +726,6 @@ footer {
 }
 
 @media screen and (min-width: 1025px) {
-	/* Header Styles */
-
-	#mainLogo {
-		width: 10%;
-		margin: 10px;
-	}
-
-	/* Navigation Styles */
-
-	.navFirst ul {
-		position: static; /* Reset position to flow in document */
-		display: flex; /* Display menu items in a row */
-		justify-content: space-evenly; /* Start aligning menu items */
-		align-items: center; /* Center items vertically */
-		margin: 0;
-		padding: 0;
-		background: transparent;
-		width: auto; /* Allow width to grow as needed */
-	}
-
-	.navFirst ul li {
-		margin: 0 15px; /* Space between menu items */
-	}
-
-	.navFirst ul li a {
-		text-decoration: none;
-		color: black;
-		padding: 10px 5px; /* Adjust padding as needed */
-		font-size: 0.8em;
-	}
-
-	#navicon,
-	.nav-spacer {
-		display: none; /* Hide navicon and spacer on PC screens */
-	}
-
-	a#navicon:hover + ul,
-	nav ul:hover {
-		display: flex;
-	}
-
-	.navFirst li a:active,
-	.navFirst li a:hover {
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	}
-
 	/* Hero Style */
 
 	.cta1 {
@@ -827,7 +757,7 @@ footer {
 	}
 
 	h3 {
-		font-size: 1.8em;
+		font-size: 1.1em;
 	}
 
 	h4 {

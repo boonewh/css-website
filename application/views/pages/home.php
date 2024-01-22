@@ -1,7 +1,7 @@
         <main>
             <div class=parallax1></div>
             <h1 class="cta1"><i>Let us help you!</i></h1>
-            <a href="/social"><h4 class="cta2">Learn more about our services </h4></a> 
+            <a href="/services"><h4 class="cta2">Learn more about our services </h4></a> 
 			<div class="container">
 
                 <div class="services">
