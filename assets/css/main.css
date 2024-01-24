@@ -83,6 +83,14 @@ header {
 	padding: 0;
 }
 
+.dropdown-arrow {
+	display: inline-block;
+	transform: rotate(90deg);
+	margin-left: 4px;
+	vertical-align: sub;
+	font-weight: bold;
+}
+
 /* Heading Styles */
 h1 {
 	font-size: 2em;

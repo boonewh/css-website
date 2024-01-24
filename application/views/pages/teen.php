@@ -7,7 +7,7 @@
             <div class= "therapy">
                 <section>
                     <img src="assets/images/teen.jpg" alt="Child, Teen, Family"> 
-                    <h2>Transform Your Teen and Family Dynamics</h2>
+                    <h3>Transform Your Teen and Family Dynamics</h3>
                     <p>Transform your teen and family dynamics with our positive and
                     empowering therapy services. Discover practical strategies designed to address longstanding issues and witness positive changes unfold with our positive and empowering therapy services. Our team of friendly and professional therapists is dedicated to creating a safe space where teens can freely express themselves, fostering resilience and lasting transformations.</p>
 

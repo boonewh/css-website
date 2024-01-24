@@ -12,6 +12,6 @@
             <hr>
             <br>
             <div id="css-group">
-                <img src="assets/images/css_family.png" alt="CSS Employees Around Logo">
+                <img src="assets/images/css-collage2024.png" alt="CSS Employees Around Logo">
             </div>
         </main>

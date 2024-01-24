@@ -35,7 +35,7 @@
 		</div>
 		<header>
 
-			<img src="/assets/images/csslogo-white.png" alt="" class="logo">
+			<img src="assets/images/css-logo2024.png" alt="CSS Logo" class="logo">
 
 			<input type="checkbox" id="menu-bar">
         	<label for="menu-bar"><img src="assets/images/navicon.png" alt="" id="navicon"></label>
@@ -43,7 +43,7 @@
 			<nav class="navbar">
 				<ul>
 					<li><a href="/home">Home Page</a></li>
-					<li><a href="#">Services</a>
+					<li><a href="#">Services<span class="dropdown-arrow">></span></a>
 						<ul>
 							<li><a href="/social">Social Skills Group</a></li>
 							<li><a href="/play">Play Therapy</a></li>
