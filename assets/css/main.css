@@ -2,6 +2,7 @@
 	--text: #000000; /* Default placed here in case we want to change to option later */
 	--secondary-text: rgb(107, 0, 62);
 	--primary: #9b6ecd;
+	--primary2: #cad6ec;
 	--secondary: #acd1e4;
 	--css-linear: linear-gradient(
 		to bottom right,
@@ -78,7 +79,7 @@ a {
 }
 
 header {
-	background: var(--css-linear);
+	background: var(--primary2);
 	margin: 0;
 	padding: 0;
 }
@@ -125,7 +126,7 @@ button {
 	font-family: Alkatra, Georgia, "Times New Roman", Times, serif;
 	font-size: 18px;
 	color: var(--text);
-	background: var(--css-linear);
+	background: var(--primary2);
 }
 
 button:active,
@@ -136,7 +137,7 @@ button:hover {
 
 button:active,
 input[type="submit"]:active {
-	background-color: var(--primary);
+	background-color: var(--primary2);
 	color: var(--secondary-text);
 }
 
@@ -149,16 +150,17 @@ input[type="submit"]:active {
 /* Call to Action */
 
 .cta1 {
-	margin-top: -6px;
+	position: block;
 	margin-bottom: 0;
 }
 
 .cta2 {
+	position: block;
 	margin: 0 auto;
 	padding: 2px;
 	text-align: center;
 	width: 80%;
-	background: var(--css-linear);
+	background: var(--primary2);
 	border: 2px solid black;
 	border-radius: 20px;
 	text-decoration: underline;
@@ -190,7 +192,7 @@ input[type="submit"]:active {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	background: var(--css-top-mid);
+	background: var(--primary2);
 }
 
 .container3 {
@@ -198,14 +200,14 @@ input[type="submit"]:active {
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style: none;
-	background: var(--css-linear-flip);
+	background: var(--primary2);
 }
 
 .container2 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	background: var(--css-linear);
+	background: var(--primary2);
 }
 
 .services {
@@ -230,12 +232,12 @@ input[type="submit"]:active {
 
 .therapy-container {
 	display: static;
-	background: var(--css-linear-flip);
+	background: var(--primary2);
 	width: 100%;
 }
 
 .therapy-container2 {
-	background: var(--css-linear-flip);
+	background: var(--primary2);
 	padding: 20px 0;
 	width: 100%;
 }
@@ -261,8 +263,24 @@ input[type="submit"]:active {
 }
 
 .staff h4,
-.staff h5 {
+.staff2 h4,
+.dristre h4,
+.pam h4 {
 	margin: 0;
+	font-size: 1.3em;
+}
+
+.staff h5,
+.staff2 h5,
+.dristre h5,
+.pam h5 {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.staff ul li,
+.staff2 ul li {
+	font-size: 1.1em;
 }
 
 .staff {
@@ -276,10 +294,6 @@ input[type="submit"]:active {
 	margin-left: -35px;
 }
 
-.staff ul li {
-	font-size: 1.3em;
-}
-
 .staff img {
 	width: 100%;
 	margin-top: 20px;
@@ -288,7 +302,6 @@ input[type="submit"]:active {
 
 .dristre {
 	text-align: center;
-	font-size: 1.3em;
 }
 
 .dristre img {
@@ -318,29 +331,10 @@ input[type="submit"]:active {
 	z-index: 1000;
 }
 
-.melissa {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 1.3em;
-}
-
-.melissa div {
-	order: 2;
-}
-
-.melissa img {
-	order: 1;
-	width: 100%;
-	margin-top: 20px;
-	border-radius: 10px;
-}
-
 .pam {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	font-size: 1.3em;
 }
 
 .pam div {
@@ -392,7 +386,7 @@ article h6 {
 
 /* Schedule Styles */
 .table {
-	background: var(--css-linear-flip);
+	background: var(--primary2);
 	margin-top: 5px;
 	padding: 50px 0;
 }
@@ -494,7 +488,7 @@ article h6 {
 /* Footer Styles */
 
 footer {
-	background: var(--css-linear);
+	background: var(--primary2);
 }
 
 .foot a {
@@ -657,7 +651,7 @@ footer {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		background: var(--css-linear-flip);
+		background: var(--primary2);
 	}
 
 	.therapy {
@@ -737,8 +731,9 @@ footer {
 	/* Hero Style */
 
 	.cta1 {
-		font-size: 2.3em;
+		font-size: 1.8em;
 		position: absolute;
+		width: 80%;
 		top: 86%;
 		left: 50%;
 		transform: translate(-50%, -50%);

@@ -6,7 +6,7 @@
                 <div class="staff">
                     <img src="assets/images/erin.jpg" alt="Erin Lozano">
                     <h4>Erin Lozano, M.Ed, LPC-Supervisor, RPT-S</h4>
-                    <h4>Early Childhood Division Director</h4>
+                    <h5>Early Childhood Division Director</h5>
                     <ul>
                         <li>Specializations Include:</li>
                         <li>Pre-School through Preadolescents</li>
@@ -28,7 +28,7 @@
                 <div class="staff">
                     <img src="assets/images/holly.jpg" alt="Holly Fedro">
                     <h4>Holly Fedro, MS, LCSW-Supervisor</h4>
-                    <h4>Adolescent and Adult Division Director</h4>
+                    <h5>Adolescent and Adult Division Director</h5>
                     <ul>
                         <li>Specializations Include:</li>
                         <li>Tweens through Adulthood</li>
@@ -119,7 +119,7 @@
                         <h4>Mattie Crownover, MSW, LMSW</h4>
                         <ul>
                             <li>Specializations Include:</li>
-                            <li>Children Through Young Adults</li>
+                            <li>Children through Young Adults</li>
                             <li>Individual Therapy</li>
                             <li>Group Social Skills Therapy</li>
                             <li>Anxiety/Depression/Stress Management</li>
@@ -132,7 +132,7 @@
                     <img src="assets/images/mattie.jpg" alt="Mattie Crownover">
                 </div>
 
-                <div class="melissa">
+                <div class="staff2">
                     <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                     <div>
                         <h4>Melissa Drager</h4>

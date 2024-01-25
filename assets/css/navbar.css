@@ -34,9 +34,12 @@ header .navbar ul li a:hover {
 header .navbar ul li ul {
 	position: absolute;
 	left: 0;
-	width: 200px;
+	width: 400px;
 	background: #fff;
 	display: none;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2; /* standard syntax */
 }
 
 header .navbar ul li ul li {

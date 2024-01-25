@@ -1,6 +1,6 @@
         <main>
             <div class=parallax1></div>
-            <h1 class="cta1"><i>Let us help you!</i></h1>
+            <h1 class="cta1"><i>You can be successful. We can help.</i></h1>
             <a href="/services"><h4 class="cta2">Learn more about our services </h4></a> 
 			<div class="container">
 
@@ -37,6 +37,6 @@
             </div>
             <div class="parallax2"></div>
             <div>
-                <h4>Let us help you.</h4>
+                <h4>You can be successful. We can help.</h4>
             </div>
         </main>
