@@ -66,6 +66,16 @@ class Pages extends CI_Controller {
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
         ];
 
+        private $emdrData = [
+                'title' => "CSS EMDR",
+                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+        ];
+
+        private $sandtrayData = [
+                'title' => "CSS Sand Tray and Art Therapy",
+                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+        ];
+
         private $scheduleData = [
                 'title' => "CSS Group Therapy Schedule",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
@@ -97,6 +107,10 @@ class Pages extends CI_Controller {
                         $data = $this->adultData;
                 } else if ($page === 'family') {
                         $data = $this->familyData;
+                }else if ($page === 'emdr') {
+                        $data = $this->emdrData;
+                }else if ($page === 'sandtray') {
+                        $data = $this->sandtrayData;
                 } else if ($page === 'staff') {
                         $data = $this->staffData;
                 } else if ($page === 'pups') {

@@ -51,8 +51,8 @@
 							<li><a href="/animal">Animal Assisted Therapy</a></li>
 							<li><a href="/adult">Young Adult and Adult Therapy</a></li>
 							<li><a href="/family">Family, Parenting and Sibling Therapy</a></li>
-							<li><a href="/family">EMDR</a></li>
-							<li><a href="/family">Sand Tray and Art Therapy</a></li>
+							<li><a href="/emdr">EMDR</a></li>
+							<li><a href="/sandtray">Sand Tray and Art Therapy</a></li>
 						</ul>
 					</li>
 					<li><a href="/staff">Our Staff</a></li>

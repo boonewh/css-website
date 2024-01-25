@@ -5,7 +5,7 @@
             <div class="container2">
                 <div class="staff">
                     <img src="assets/images/erin.jpg" alt="Erin Lozano">
-                    <h4>Erin Lozano, M.Ed, LPC-Supervisor, RPT-S</h4>
+                    <h4>Erin Lozano, MEd, LPC-Supervisor, RPT-S</h4>
                     <h5>Early Childhood Division Director</h5>
                     <ul>
                         <li>Specializations Include:</li>
