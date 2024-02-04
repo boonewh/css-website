@@ -4,6 +4,8 @@
 
 css-website/
 
+application/views/pages/location.php
+
 application/cache/*
 !application/cache/index.html
 
