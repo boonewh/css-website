@@ -4,49 +4,6 @@
 	--primary: #9b6ecd;
 	--primary2: #cad6ec;
 	--secondary: #acd1e4;
-	--css-linear: linear-gradient(
-		to bottom right,
-		#9b6ecd 0%,
-		#9b6ecd 50%,
-		#a195d7 65%,
-		#a8bbdf 75%,
-		#acd1e4 100%
-	);
-
-	--css-linear-flip: linear-gradient(
-		to top right,
-		#9b6ecd 0%,
-		#9b6ecd 50%,
-		#a195d7 65%,
-		#a8bbdf 75%,
-		#acd1e4 100%
-	);
-
-	--css-middle: linear-gradient(
-		to right,
-		#9b6ecd 0%,
-		#9b6ecd 25%,
-		#a195d7 35%,
-		#a8bbdf 45%,
-		#acd1e4 50%,
-		#a8bbdf 55%,
-		#a195d7 65%,
-		#9b6ecd 75%,
-		#9b6ecd 100%
-	);
-
-	--css-top-mid: linear-gradient(
-		to bottom right,
-		#acd1e4 0%,
-		#acd1e4 4%,
-		#a8bbdf 10%,
-		#a195d7 15%,
-		#9b6ecd 50%,
-		#a195d7 85%,
-		#a8bbdf 90%,
-		#acd1e4 96%,
-		#acd1e4 100%
-	);
 }
 
 * {
@@ -74,11 +31,35 @@ a {
 }
 
 #toptop p {
-	margin: 0;
+	margin: 9px;
 	padding: 0;
 }
 
+#topTwo {
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 5px 20px;
+	background: var(--primary2);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+#topThree {
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 5px;
+	margin-bottom: 2px;
+	background: var(--primary2);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+#balancer {
+	width: 30px;
+}
+
 header {
+	display: flex;
+	justify-content: space-around;
 	background: var(--primary2);
 	margin: 0;
 	padding: 0;
@@ -151,15 +132,16 @@ input[type="submit"]:active {
 
 .cta1 {
 	position: block;
-	margin-bottom: 0;
+	margin: 0;
 }
 
 .cta2 {
 	position: block;
-	margin: 0 auto;
+	margin: -30px auto 20px auto;
 	padding: 2px;
 	text-align: center;
 	width: 80%;
+	margin-top: 2px;
 	background: var(--primary2);
 	border: 2px solid black;
 	border-radius: 20px;
@@ -168,24 +150,17 @@ input[type="submit"]:active {
 
 /* Body Styles */
 
-.parallax1 {
-	background-image: url(../images/happy-family.jpg);
-	min-height: 30vh;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	position: relative;
+.homeImg {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
-.parallax2 {
-	background-image: url(../images/css-staff-23.jpg);
-	min-height: 35vh;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	position: relative;
+.homeImg img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
@@ -496,8 +471,21 @@ footer {
 	text-decoration: underline;
 }
 
+.foot2 {
+	text-align: center;
+	font-size: 1.7em;
+	margin: 0;
+	padding: 0;
+}
+
+.foot2 p {
+	font-size: 0.75em;
+	margin-top: 0;
+}
+
 #approved {
-	width: 100%;
+	width: 60%;
+	margin-bottom: 0;
 }
 
 .advert {
@@ -516,20 +504,7 @@ footer {
 		padding: 0;
 	}
 
-	#topTwo {
-		margin: 5px 0;
-		padding: 0;
-	}
-
-	#topThree {
-		text-decoration: underline;
-	}
-
 	/* Header Styles */
-
-	#mainLogo {
-		width: 25%;
-	}
 
 	/* Body Styles */
 	.parallax1 {
@@ -623,11 +598,10 @@ footer {
 		margin: 2% 2%;
 	}
 
-	.foot2 {
-		text-align: center;
-		font-size: 1.7em;
-		margin: 0;
-		padding: 0;
+	.foot2 p {
+		margin-top: 0;
+		font-size: 0.75em;
+		font-family: Cabin, Arial, Helvetica, sans-serif;
 	}
 
 	.advert {
@@ -640,13 +614,13 @@ footer {
 @media screen and (min-width: 913px) {
 	#toptop {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
 		font-size: 0.75em;
 		font-family: Lora, "Times New Roman", Times, serif;
 	}
 
-	#mainLogo {
-		width: 15%;
+	.homeImg img {
+		width: 100%;
 	}
 
 	/* Therapy Styles */
@@ -670,8 +644,8 @@ footer {
 	}
 
 	#approved {
-		width: 20%;
-		margin: 20px 0;
+		width: 30%;
+		margin-top: 20px;
 	}
 
 	/* Schedule Styles */
@@ -733,26 +707,6 @@ footer {
 
 @media screen and (min-width: 1025px) {
 	/* Hero Style */
-
-	.cta1 {
-		font-size: 1.8em;
-		position: absolute;
-		width: 80%;
-		top: 86%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
-		text-align: center;
-	}
-
-	.cta2 {
-		position: absolute;
-		width: 40%;
-		top: 96%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
 
 	/* Body Styles */
 	.parallax1 {
@@ -816,14 +770,36 @@ footer {
 	}
 }
 
-@media screen and (min-width: 1190px) {
-	/* Hero Styles 8 */
-	.parallax1 {
-		background-attachment: fixed;
+@media screen and (min-width: 1369px) {
+	.homeImg {
+		width: 100%;
+		text-align: center;
 	}
 
-	.parallax2 {
-		background-attachment: fixed;
+	.homeImg img {
+		width: 80%;
+	}
+
+	.cta1 {
+		font-size: 1.8em;
+		position: absolute;
+		width: 80%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+
+	.cta2 {
+		position: absolute;
+		width: 40%;
+		top: 96%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 	}
 
 	#css-group img {

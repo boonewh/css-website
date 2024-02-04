@@ -29,11 +29,11 @@
 
 	<body>
 		<div id="toptop">
-				<p><a href="/services" id="topOne">Social, Emotional, and Behavioral Skills</a></p>
-				<p><a id="topThree" href="/contact">Email Us</a></p>
-				<p><a id="topTwo" href="tel:9724043001">Call Us: 972-404-3001</a></p>
+				
+			<p><a id="topThree" href="/contact">Email Us</a><a id="topTwo" href="tel:9724043001">Call Us: 972-404-3001</a></p>
 		</div>
 		<header>
+			<div id="balancer"></div>
 
 			<img src="assets/images/css-logo2024.png" alt="CSS Logo" class="logo">
 
