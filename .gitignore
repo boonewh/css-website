@@ -2,6 +2,9 @@
 
 .htaccess
 
+css-website/
+.gitignore
+
 application/cache/*
 !application/cache/index.html
 

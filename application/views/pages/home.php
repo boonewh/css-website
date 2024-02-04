@@ -1,5 +1,5 @@
         <main>
-            <div class=parallax1></div>
+            <div class="homeImg"><img src="assets/images/hero.jpg" alt="Happy family image"></div>
             <h1 class="cta1"><i>You can be successful. We can help.</i></h1>
             <a href="/services"><h4 class="cta2">Learn more about our services </h4></a> 
 			<div class="container">
@@ -37,7 +37,7 @@
                     <a href="/sandtray"><img src="assets/images/sandtray.jpg" alt=""></a>
                 </div>
             </div>
-            <div class="parallax2"></div>
+            <img class="homeImg" src="assets/images/css-staff-23.jpg" alt="CSS Staff group picture">
             <div>
                 <h2>You can be successful. We can help.</h2>
                 <br>
