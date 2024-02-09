@@ -12,7 +12,10 @@ class Ajax extends CI_Controller {
                 $confirmEmail = strip_tags(trim($this->input->post('confirmEmail')));
                 $phone = strip_tags(trim($this->input->post('phone')));
                 $selectedCounselor = strip_tags(trim($this->input->post('counselor')));
+                $whoChoice = strip_tags(trim($this->input->post('whoChoice')));
+                $childAge = strip_tags(trim($this->input->post('childAge')));
                 $message = strip_tags(trim($this->input->post('message')));
+                
 
                 if (!empty($name) && !empty($email) && $email === $confirmEmail && !empty($phone) && !empty($message)) {
                     // Prepare and send the email
@@ -22,6 +25,8 @@ class Ajax extends CI_Controller {
                     $emailBody .= "Email: $email\n";
                     $emailBody .= "Phone: $phone\n";
                     $emailBody .= "Selected Counselor: $selectedCounselor\n";
+                    $emailBody .= "Who this is for: $whoChoice\n";
+                    $emailBody .= "Child Age: $childAge\n";
                     $emailBody .= "Message: $message\n";
 
                     $headers = "MIME-Version: 1.0\r\n";

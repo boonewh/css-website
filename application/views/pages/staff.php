@@ -79,7 +79,7 @@
 
                 <div class="staff2">
                     <div>
-                        <h4>Deliah Mooney, MSW, LMSW</h4>
+                        <h4>Deliah Fry, MSW, LMSW</h4>
                         <ul>
                             <li>Specializations Include:</li>
                             <li>Tweens through Adolescents</li>
@@ -92,7 +92,7 @@
                             <li>ADHD & ASD</li>
                         </ul>
                     </div>
-                    <img src="assets/images/deliah.jpg" alt="Deliah Mooney">
+                    <img src="assets/images/deliah.jpg" alt="Deliah Fry">
                 </div>
 
                 <div class="staff2">
