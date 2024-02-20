@@ -61,6 +61,12 @@
                     <th>Lead Therapist</th>
                 </tr>
                 <tr>
+                    <td>3:30</td>
+                    <td>Girls</td>
+                    <td>6-7 y/o</td>
+                    <td>Erin/Deliah</td>
+                </tr>
+                <tr>
                     <td>4:30</td>
                     <td>Boys</td>
                     <td>6-8 y/o</td>
@@ -105,7 +111,7 @@
                     <td>Erin/Tobi</td>
                 </tr>
                 <tr>
-                    <td>4:30</td>
+                    <td>5:30</td>
                     <td>Boys</td>
                     <td>7-9 y/o</td>
                     <td>Erin/Tobi</td>
@@ -160,6 +166,12 @@
                     <td>12:00</td>
                     <td>Girls</td>
                     <td>13-14 y/o</td>
+                    <td>Roy/Mattie</td>
+                </tr>
+                <tr>
+                    <td>1:00</td>
+                    <td>Young Mens</td>
+                    <td>19-25 y/o</td>
                     <td>Roy/Mattie</td>
                 </tr>
             </table>

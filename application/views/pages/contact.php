@@ -23,13 +23,13 @@
                             <label for="erin_lozano">Erin Lozano, M.Ed, LPC-Supervisor, RPT-S</label><br>
 
                             <input type="radio" id="holly_fedro" name="counselor" value="Holly Fedro">
-                            <label for="holly_fedro">Holly Fedro, MS, LCSW</label><br>
+                            <label for="holly_fedro">Holly Fedro, MS, LCSW-Supervisor</label><br>
 
                             <input type="radio" id="tobi_carter" name="counselor" value="Tobi Carter">
                             <label for="tobi_carter">Tobi Carter, MSW, LMSW</label><br>
 
                             <input type="radio" id="deliah_mooney" name="counselor" value="Deliah Mooney">
-                            <label for="deliah_mooney">Deliah Mooney, MSW, LMSW</label><br>
+                            <label for="deliah_mooney">Deliah Fry, MSW, LMSW</label><br>
 
                             <input type="radio" id="roy_rodriguez" name="counselor" value="Roy Rodriguez">
                             <label for="roy_rodriguez">Roy Rodriguez, MSW, LMSW</label><br>

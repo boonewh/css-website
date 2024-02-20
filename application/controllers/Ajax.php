@@ -19,7 +19,7 @@ class Ajax extends CI_Controller {
 
                 if (!empty($name) && !empty($email) && $email === $confirmEmail && !empty($phone) && !empty($message)) {
                     // Prepare and send the email
-                    $to = 'boonewh@gmail.com'; 
+                    $to = 'melissa@cssdallas.com'; 
                     $emailSubject = "New CSS Dallas Contact Form Submission";
                     $emailBody = "Name: $name\n";
                     $emailBody .= "Email: $email\n";
