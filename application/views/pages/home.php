@@ -44,3 +44,31 @@
                 <br>
             </div>
         </main>
+
+        <script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "ProfessionalService",
+			"name": "Center for Social Success",
+			"description": "A counseling center in Dallas, Tx. helping individuals improve social skills and supporting parents with their children's social development.",
+			"url": "http://cssdallas.com",
+			"logo": "http://cssdallas.com/assets/images/css-logo2024.png",
+			"telephone": "+1-972-404-3001",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "12880 Hillcrest Rd. Ste J105",
+				"addressLocality": "Dallas",
+				"addressRegion": "TX",
+				"postalCode": "75230",
+				"addressCountry": "US"
+			},
+			"openingHours": [
+				"Mo-Th, 09:00-19:30",
+				"Sa, 10:00-15:00",
+				"Su, 12:30-17:30"
+			],
+			"sameAs": [
+				"https://www.facebook.com/Centerforsocialsuccess/"
+			]
+		}
+		</script>

@@ -14,7 +14,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?= htmlspecialchars($description, ENT_QUOTES, 'UTF-8'); ?>"/>
 		 <!--Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy.-->
-		<title><?=$title; ?></title> <!--Center for Social Success || Dallas, Tx.-->
+		<title><?=$title; ?></title> <!--Center for Social Success | Dallas, Tx.-->
 		<?=$canonical; ?>
 		<link rel="stylesheet" href="assets/css/main.css">  
 		<link rel="stylesheet" href="assets/css/navbar.css">
@@ -26,34 +26,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-		<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "ProfessionalService",
-			"name": "Center for Social Success",
-			"description": "A counseling center in Dallas, Tx. helping individuals improve social skills and supporting parents with their children's social development.",
-			"url": "http://cssdallas.com",
-			"logo": "http://cssdallas.com/assets/images/css-logo2024.png",
-			"telephone": "+1-972-404-3001",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "12880 Hillcrest Rd. Ste J105",
-				"addressLocality": "Dallas",
-				"addressRegion": "TX",
-				"postalCode": "75230",
-				"addressCountry": "US"
-			},
-			"openingHours": [
-				"Mo-Th, 09:00-19:30",
-				"Sa, 10:00-15:00",
-				"Su, 12:30-17:30"
-			],
-			"sameAs": [
-				"https://www.facebook.com/Centerforsocialsuccess/",
-
-			]
-		}
-		</script>
 	</head>
 
 	<body>

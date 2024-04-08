@@ -2,99 +2,111 @@
 class Pages extends CI_Controller {
 
         private $homeData = [
-                'title' => "Center for Social Success || Dallas, Tx.",
-                'description' => "Let us help you in all of your social interactions. Family, individual and group therapy including animal assisted services",
-                'canonical' => '<link rel="canonical" href="http://cssdallas.com" />',
+                'title' => "Center for Social Success | Dallas, Tx.",
+                'description' => "Let CSS help you in all of your social interactions. Family, individual and group therapy including animal assisted services",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/" />',
         ];
 
         private $staffData = [
-                'title' => "Meet Our Professionals",
+                'title' => "CSS Meet Our Professionals",
                 'description' => "CSS Proffesionals, specializing in a wide variety of services to help you every day.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/staff" />',
         ];
 
         private $pupsData = [
-                'title' => "Meet the Therapy Pups",
+                'title' => "CSS Meet the Therapy Pups",
                 'description' => "Our pups are here to help you find fuzzy hope. All are small breed and hypoallergenic.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/pups" />',
         ];
 
         private $newsletterData = [
                 'title' => "CSS Newsletter",
                 'description' => "The newletter from the staff of the Center for Social Success covering social skills for parents and teens.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/newsletter" />',
         ];
 
         private $locationData = [
                 'title' => "CSS Location",
                 'description' => "Our CSS office location in Dallas, Tx. Call for more information or an appointment.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/location" />',
         ];
 
         private $contactData = [
                 'title' => "CSS Contact Page",
                 'description' => "Sends an email to the CSS Office. Our office staff will contact you soon if you use our contact page.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/contact" />',
         ];
 
         private $servicesData = [
                 'title' => "CSS Services",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/services" />',
         ];
 
         private $socialData = [
                 'title' => "CSS Social Skills Group",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/social" />',
         ];
 
         private $playData = [
                 'title' => "CSS Play Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/play" />',
         ];
 
         private $teenData = [
                 'title' => "CSS Teen and Adolescents Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/teen" />',
         ];
 
         private $animalData = [
-                'title' => "CSS Aminal Assited Therapy",
+                'title' => "CSS Aminal Assisted Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/animal" />',
         ];
 
         private $adultData = [
                 'title' => "CSS Young Adult and Adult Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/adult" />',
         ];
 
         private $familyData = [
                 'title' => "CSS Family/Parenting Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/family" />',
         ];
 
         private $emdrData = [
                 'title' => "CSS EMDR",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/emdr" />',
         ];
 
         private $sandtrayData = [
                 'title' => "CSS Sand Tray and Art Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/sandtray" />',
         ];
 
         private $scheduleData = [
                 'title' => "CSS Group Therapy Schedule",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
-                'canonical' => "",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/schedule" />',
+        ];
+
+        private $article1Data = [
+                'title' => "CSS Newsletter Article 1",
+                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article1" />',
+        ];
+
+        private $article2Data = [
+                'title' => "CSS Newsletter Article 2",
+                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article2" />',
         ];
 
         public function view($page = 'home')
@@ -139,11 +151,13 @@ class Pages extends CI_Controller {
                         $data = $this->contactData;
                 } else if ($page === 'schedule') {
                         $data = $this->scheduleData;
+                } else if ($page === 'article1') {
+                        $data = $this->article1Data;
+                } else if ($page === 'article2') {
+                        $data = $this->article2Data;
                 } else {
                         show_404();
                 }
-        
-                $data['title'] = ucfirst($page); // Capitalize the first letter
         
                 $this->load->view('templates/header', $data);
                 $this->load->view('pages/'.$page, $data);

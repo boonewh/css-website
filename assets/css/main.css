@@ -359,6 +359,27 @@ article h6 {
 	margin: 0;
 }
 
+.past-blog {
+	display: flex; /* Use flexbox to lay out children inline */
+	justify-content: space-around; /* Even spacing around items */
+	align-items: center; /* Align items vertically in the center */
+	text-align: center; /* Center the text of children if any text wraps */
+	flex-wrap: wrap; /* Allow items to wrap onto the next line on smaller screens */
+	padding: 20px; /* Add some padding around the container */
+}
+
+.past-blog h1 {
+	margin: 0 10px; /* Ensure the heading has some margin for separation */
+	flex: 1 100%; /* Make the heading take the full width on wrap (100% width of the container) */
+}
+
+.past-blog img {
+	max-width: 100%; /* Make images responsive, preventing them from being larger than their container */
+	height: auto; /* Maintain aspect ratio */
+	margin: 0 10px; /* Add margin to keep space between images and other elements */
+	border-radius: 10px;
+}
+
 /* Schedule Styles */
 .table {
 	background: var(--primary2);

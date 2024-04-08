@@ -42,7 +42,7 @@ class Ajax extends CI_Controller {
                     echo "error";
                 }
             }
-            // Check if it's the search form with 'mname' field
+            // HERE - TAKE THIS ELIF OUT
             elseif ($this->input->post('mname')) {
                 // Process the new search form
                 $monsterName = strip_tags(trim($this->input->post('mname')));
