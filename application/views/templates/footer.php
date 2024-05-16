@@ -13,7 +13,7 @@
 			</div>
 			<div class="advert">
 				<p>2024 All Rights Reserved, The Center for Social Success</p>
-				<p>Website: Pathsix Web Design, by WB</p>
+				<a href="https://www.willboone.dev/contact"><p>Website: Pathsix Web Design</p></a>
 			</div>
 		</footer>
 	</body>
