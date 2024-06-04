@@ -3,7 +3,7 @@ class Pages extends CI_Controller {
 
         private $homeData = [
                 'title' => "Center for Social Success | Dallas, Tx.",
-                'description' => "Let CSS help you in all of your social interactions. Family, individual and group therapy including animal assisted services",
+                'description' => "Let us help you with social skills guidance and animal assisted therapy to improve your interpersonal relations at the Center for Social Success in Dallas, Tx.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/" />',
         ];
 
@@ -39,13 +39,13 @@ class Pages extends CI_Controller {
 
         private $servicesData = [
                 'title' => "CSS Services",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Let us help you in all of your social skills in Dallas, including Family, individual counseling and group therapy.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/services" />',
         ];
 
         private $socialData = [
                 'title' => "CSS Social Skills Group",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Let us help you in all of your social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/social" />',
         ];
 

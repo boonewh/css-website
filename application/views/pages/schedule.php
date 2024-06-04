@@ -19,32 +19,20 @@
                 <tr>
                     <td>4:30</td>
                     <td>Boys</td>
-                    <td>9-11 y/o</td>
-                    <td>Tobi/Deliah</td>
+                    <td>10-13 y/o</td>
+                    <td>Tobi/Kaitlin</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
                     <td>Boys</td>
-                    <td>9-11 y/o</td>
-                    <td>Tobi/Roy</td>
+                    <td>10-12 y/o</td>
+                    <td>Tobi/Kaitlin</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
                     <td>Girls</td>
                     <td>9-11 y/o</td>
                     <td>Erin/Mattie</td>
-                </tr>
-                <tr>
-                    <td>5:30</td>
-                    <td>Girls</td>
-                    <td>13 y/o</td>
-                    <td>Deliah</td>
-                </tr>
-                <tr>
-                    <td>6:30</td>
-                    <td>CoEd</td>
-                    <td>14-16 y/o</td>
-                    <td>Deliah</td>
                 </tr>
             </table>
         </div">
@@ -63,14 +51,14 @@
                 <tr>
                     <td>3:30</td>
                     <td>Girls</td>
-                    <td>6-7 y/o</td>
-                    <td>Erin/Deliah</td>
+                    <td>6-8 y/o</td>
+                    <td>Erin/Lexi</td>
                 </tr>
                 <tr>
                     <td>4:30</td>
                     <td>Boys</td>
                     <td>6-8 y/o</td>
-                    <td>Erin</td>
+                    <td>Erin/Lexi</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
@@ -82,7 +70,7 @@
                     <td>5:30</td>
                     <td>Girls</td>
                     <td>10-11 y/o</td>
-                    <td>Roy/Deliah</td>
+                    <td>Roy/Lexi</td>
                 </tr>
             </table>
         </div>
@@ -102,19 +90,25 @@
                     <td>3:30</td>
                     <td>Boys</td>
                     <td>4-6 y/o</td>
-                    <td>Erin/Tobi</td>
+                    <td>Erin/Lexi</td>
                 </tr>
                 <tr>
                     <td>4:30</td>
                     <td>Boys</td>
                     <td>3-6 y/o</td>
-                    <td>Erin/Tobi</td>
+                    <td>Erin/Lexi</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
                     <td>Boys</td>
                     <td>7-9 y/o</td>
-                    <td>Erin/Tobi</td>
+                    <td>Erin/Kaitlin</td>
+                </tr>
+                <tr>
+                    <td>5:30</td>
+                    <td>Boys</td>
+                    <td>11-13 y/o</td>
+                    <td>Tobi</td>
                 </tr>
             </table>
         </div>
@@ -137,16 +131,10 @@
                     <td>Tobi/Mattie</td>
                 </tr>
                 <tr>
-                    <td>5:30</td>
-                    <td>CoEd</td>
-                    <td>17-18 y/o</td>
-                    <td>Deliah/Mattie</td>
-                </tr>
-                <tr>
                     <td>6:30</td>
                     <td>Girls</td>
                     <td>11-12 y/o</td>
-                    <td>Mattie/Deliah</td>
+                    <td>Mattie/Kaitlin</td>
                 </tr>
             </table>
         </div>
@@ -170,8 +158,8 @@
                 </tr>
                 <tr>
                     <td>1:00</td>
-                    <td>Young Mens</td>
-                    <td>19-25 y/o</td>
+                    <td>Young Adult Boys</td>
+                    <td></td>
                     <td>Roy/Mattie</td>
                 </tr>
             </table>

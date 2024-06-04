@@ -1,12 +1,12 @@
         <main>
-            <div class="homeImg"><img src="assets/images/hero.jpg" alt="Happy family image"></div>
+            <div class="homeImg"><img src="assets/images/hero.jpg" alt="Happy family laying in the grass."></div>
             <h1 class="cta1"><i>You can be successful. We can help.</i></h1>
             <a href="/services"><h4 class="cta2">Learn more about our services </h4></a> 
 			<div class="container">
 
                 <div class="services">
                     <a href="/social"><h2>Social Skills Groups</h2></a>
-                    <a href="/social"><img src="assets/images/SocialSkillsGroups.jpg" alt="Social Skill Groups"></a>
+                    <a href="/social"><img src="assets/images/SocialSkillsGroups.jpg" alt="Social Skill Groups Dallas, Tx."></a>
                 </div>
                 <div class="services">
                     <a href="/play"><h2>Play Therapy</h2></a>

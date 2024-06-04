@@ -6,7 +6,7 @@
             <br>
             <div class= "therapy">
                 <section>
-                    <img src="assets/images/teen.jpg" alt="Teen and Adolescent Therapy image"> 
+                    <img src="assets/images/teen.jpg" alt="Teen and Adolescent Therapy"> 
                     <h3>Transform Your Teen and Family Dynamics</h3>
                     <p>The teenage years bring their own unique set of challenges! Teens are no longer children, but not yet adults. Adolescence can be a difficult time, especially in our society today, where social media and peer pressure compound this already difficult stage of life.</p>
                     

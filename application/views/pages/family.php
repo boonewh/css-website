@@ -5,7 +5,7 @@
             </div>
             <div class="therapy">
                 <section>
-                    <img src="assets/images/familyservices.jpg" alt="Child, Teen, Family">
+                    <img src="assets/images/familyservices.jpg" alt="Child, Teen, Family Services">
                     <h3>Parenting Therapy</h3>
                     <p>We provide a nurturing haven for families and parents seeking support and
                     guidance through our specialized services. At The Center for Social Success, we

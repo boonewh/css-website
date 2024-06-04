@@ -36,10 +36,10 @@
 		<header>
 			<div id="balancer"></div>
 
-			<img src="assets/images/css-logo2024.png" alt="CSS Logo" class="logo">
+			<img src="assets/images/css-logo2024.png" alt="The Center for Social Success Logo" class="logo">
 
 			<input type="checkbox" id="menu-bar">
-        	<label for="menu-bar"><img src="assets/images/navicon.png" alt="" id="navicon"></label>
+        	<label for="menu-bar"><img src="assets/images/navicon.png" alt="Mobile navigation icon" id="navicon"></label>
 			
 			<nav class="navbar">
 				<ul>

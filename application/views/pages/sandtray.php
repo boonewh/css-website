@@ -5,7 +5,7 @@
             </div>
             <div class="therapy">
                 <section>
-                    <img src="assets/images/sandtray.jpg" alt="Sand Tray image">
+                    <img src="assets/images/sandtray.jpg" alt="Sand Tray Therapy">
                     
                     <p>Talking is not the only way to process events and manage emotions. When words are difficult to express, a creative approach can be very impactful. Unlike traditional talk-therapy techniques, sand tray therapy and art therapy allow you to show your feelings rather than articulate them.</p>
                     

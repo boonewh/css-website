@@ -8,12 +8,12 @@
 			<div class="foot2">					
 				<h3>Call today so we can help you achieve more success in all your social relationships.</h3>
 				<hr>
-				<img src="assets/images/Mom_Approved_2024.jpg" alt="DFW Child: Mom Approved" id="approved">
+				<img src="assets/images/Mom_Approved_2024.jpg" alt="DFW Child: Mom Approved Certificate" id="approved">
 				<p>Mom Approved 2012-2024</p>
 			</div>
 			<div class="advert">
 				<p>2024 All Rights Reserved, The Center for Social Success</p>
-				<a href="https://www.willboone.dev/contact"><p>Website: PathSix Web Design</p></a>
+				<a href="https://www.pathsixdesigns.com"><p>Website Design: PathSix Web Design</p></a>
 			</div>
 		</footer>
 	</body>

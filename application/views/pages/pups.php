@@ -3,7 +3,7 @@
             <div class="container3">
                 <div class="column">
                     <figure>
-                        <img src="assets/images/gumbo.jpg" alt="Meet Gumbo"  class="pups">
+                        <img src="assets/images/gumbo.jpg" alt="Meet Gumbo, one of our therapy dogs"  class="pups">
                         <figcaption>Gumbo</figcaption>
                         <ul>
                             <li>Favorites Include:</li>
@@ -15,7 +15,7 @@
 
                 <div class="column">
                     <figure>
-                        <img src="assets/images/blitz.JPG" alt="Meet Blitz" class="pups">
+                        <img src="assets/images/blitz.JPG" alt="Meet Blitz, one of our therapy dogs" class="pups">
                         <figcaption>Blitz</figcaption>
                         <ul>
                             <li>Favorites Include:</li>
@@ -27,7 +27,7 @@
 
                 <div class="column">
                     <figure>
-                        <img src="assets/images/braxton.jpg" alt="Meet Braxton" class="pups">
+                        <img src="assets/images/braxton.jpg" alt="Meet Braxton, one of our therapy dogs" class="pups">
                         <figcaption>Braxton</figcaption>
                         <ul>
                             <li>Favorites Include:</li>

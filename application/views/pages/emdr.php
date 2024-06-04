@@ -5,7 +5,7 @@
             </div>
             <div class="therapy">
                 <section>
-                    <img src="assets/images/emdr.jpg" alt="EMDR image">
+                    <img src="assets/images/emdr.jpg" alt="Eye Movement Desensitization and Reprocessing">
 
                     <p><strong>EMDR</strong>, or Eye Movement Desensitization and Reprocessing, is a therapy used to help reduce the intensity of traumatic memories and negative beliefs by experiencing bilateral stimulation, typically through eye movement, while briefly thinking about the traumatic memory.</p>
                     
