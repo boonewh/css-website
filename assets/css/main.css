@@ -306,6 +306,17 @@ input[type="submit"]:active {
 	z-index: 1000;
 }
 
+.staff3 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.staff3 ul {
+	list-style: none;
+}
+
 .pam {
 	display: flex;
 	flex-direction: column;

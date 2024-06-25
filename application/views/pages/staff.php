@@ -131,7 +131,41 @@
                     </div>
                     <img src="assets/images/mattie.jpg" alt="Mattie Crownover">
                 </div>
-
+                <!--
+                <div class="staff2">
+                    <img src="" alt="">
+                    <div>
+                        <h4>Lexi Goldberg, M.Ed, BCBA, LBA</h4>
+                        <ul>
+                            <li>Specializations Include:</li>
+                            <li>Behavioral Issues</li>
+                            <li>Autism, ODD, and ADHD</li>
+                            <li>Parent Training and Coaching</li>
+                        </ul>
+                    </div>
+                </div>-->
+                
+                <div class="staff3">
+                    <div>
+                        <h4>Kaitlin Peters, MS, LPC- Associate</h4>
+                        <h5>Supervisor Erin Lozano LPC-S, RPT-S</h5>
+                        <ul>
+                            <li>Specializations Include:</li>
+                            <li>Preteen and Young Adult</li>
+                            <li>Individual Therapy</li>
+                            <li>Group Therapy</li>
+                            <li>Self-Esteem and Body Issues</li>
+                            <li>Managed Eating Disorders/ARFID</li>
+                            <li>Anxiety/Depression/Stress Management</li>
+                            <li>Mindfulness</li>
+                            <li>DBT</li>
+                            <li>Behavioral Issues</li>
+                            <li>ADHD & ASD</li>
+                        </ul>
+                    </div>
+                    <!--<img src="" alt="">-->
+                </div>
+                
                 <div class="staff2">
                     <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                     <div>
