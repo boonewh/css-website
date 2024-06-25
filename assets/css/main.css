@@ -239,6 +239,7 @@ input[type="submit"]:active {
 
 .staff h4,
 .staff2 h4,
+.staff3 h4,
 .dristre h4,
 .pam h4 {
 	margin: 0;
@@ -254,7 +255,8 @@ input[type="submit"]:active {
 }
 
 .staff ul li,
-.staff2 ul li {
+.staff2 ul li,
+.staff3 ul li {
 	font-size: 1.1em;
 }
 
@@ -311,10 +313,20 @@ input[type="submit"]:active {
 	text-align: center;
 	flex-direction: column;
 	width: 100%;
+	margin-top: 40px;
+}
+
+.staff3 div {
+	order: 2;
 }
 
 .staff3 ul {
 	list-style: none;
+	margin-left: -35px;
+}
+
+.staff3 h5 {
+	margin: 0;
 }
 
 .pam {
