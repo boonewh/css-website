@@ -34,6 +34,10 @@
                     <td>9-11 y/o</td>
                     <td>Erin/Mattie</td>
                 </tr>
+                <tr>
+                <td>6:30</td>
+                <td colspan="2">College Prep</td>
+                <td>Mattie</td>
             </table>
         </div">
         <br>
@@ -52,25 +56,19 @@
                     <td>3:30</td>
                     <td>Girls</td>
                     <td>6-8 y/o</td>
-                    <td>Erin/Lexi</td>
+                    <td>Erin/Kaitlin</td>
                 </tr>
                 <tr>
                     <td>4:30</td>
                     <td>Boys</td>
                     <td>6-8 y/o</td>
-                    <td>Erin/Lexi</td>
+                    <td>Erin/Kaitlin</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
                     <td>Girls</td>
                     <td>6-9 y/o</td>
                     <td>Erin/Tobi</td>
-                </tr>
-                <tr>
-                    <td>5:30</td>
-                    <td>Girls</td>
-                    <td>10-11 y/o</td>
-                    <td>Roy/Lexi</td>
                 </tr>
             </table>
         </div>
@@ -90,25 +88,31 @@
                     <td>3:30</td>
                     <td>Boys</td>
                     <td>4-6 y/o</td>
-                    <td>Erin/Lexi</td>
+                    <td>Erin/Kaitlin</td>
                 </tr>
                 <tr>
                     <td>4:30</td>
                     <td>Boys</td>
                     <td>3-6 y/o</td>
-                    <td>Erin/Lexi</td>
-                </tr>
-                <tr>
-                    <td>5:30</td>
-                    <td>Boys</td>
-                    <td>7-9 y/o</td>
                     <td>Erin/Kaitlin</td>
                 </tr>
                 <tr>
                     <td>5:30</td>
                     <td>Boys</td>
+                    <td>7-9 y/o</td>
+                    <td>Erin</td>
+                </tr>
+                <tr>
+                    <td>5:30</td>
+                    <td>Boys</td>
                     <td>11-13 y/o</td>
-                    <td>Tobi</td>
+                    <td>Tobi/Kaitlin</td>
+                </tr>
+                <tr>
+                    <td>6:30</td>
+                    <td>Boys</td>
+                    <td>14-15 y/o</td>
+                    <td>Tobi/Kaitlin</td>
                 </tr>
             </table>
         </div>
@@ -151,15 +155,19 @@
                     <th>Lead Therapist</th>
                 </tr>
                 <tr>
+                    <td>11:00</td>
+                    <td colspan="2">High School Girls</td>
+                    <td>Kaitlin</td>
+                </tr>
+                <tr>
                     <td>12:00</td>
                     <td>Girls</td>
-                    <td>13-14 y/o</td>
-                    <td>Roy/Mattie</td>
+                    <td>11-14 y/o</td>
+                    <td>Mattie</td>
                 </tr>
                 <tr>
                     <td>1:00</td>
-                    <td>Young Adult Boys</td>
-                    <td></td>
+                    <td colspan="2">Young Adult Males</td>
                     <td>Roy/Mattie</td>
                 </tr>
             </table>

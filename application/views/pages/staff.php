@@ -129,7 +129,7 @@
                             <li>ADHD & ASD</li>
                         </ul>
                     </div>
-                    <img src="assets/images/mattie.jpg" alt="Mattie Crownover">
+                    <img src="assets/images/mattie1.jpg" alt="Mattie Crownover">
                 </div>
                 <!--
                 <div class="staff2">
