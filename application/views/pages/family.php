@@ -11,11 +11,9 @@
                     guidance through our specialized services. At The Center for Social Success, we
                     recognize that parenting comes with its own unique set of challenges. That's why
                     our dedicated team of therapists is here to assist you every step of the way.</p>
-                    <p>In our tailored sessions, parents and families have the opportunity to address
-                    family dynamics, create effective parenting strategies, and evaluate
-                    communication skills within the household. We understand the intricacies of
-                    raising a family, and our ultimate goal is to empower both individual members as
-                    well as the entire family unit.</p>
+                    <h3>Parent Coaching</h3>
+                    <h3>In-Office and/or Home Visits</h3>
+                    <p>In our tailored sessions, parents and families have the opportunity to address family dynamics, create effective parenting strategies, and evaluate communication skills within the household. We understand the intricacies of raising a family, and our ultimate goal is to empower both individual members as well as the entire family unit. We also offer home visits to aid in the implementation of effective parenting strategies, as well as managing home behavior. </p>
 
                     <h3>PCIT (Parent-Child Interaction Therapy)</h3>
                     <p>Parent-Child Interaction Therapy is an evidence-based program used with
