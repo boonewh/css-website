@@ -131,24 +131,13 @@
                     </div>
                     <img src="assets/images/mattie1.jpg" alt="Mattie Crownover">
                 </div>
-                <!--
-                <div class="staff2">
-                    <img src="" alt="">
-                    <div>
-                        <h4>Lexi Goldberg, M.Ed, BCBA, LBA</h4>
-                        <ul>
-                            <li>Specializations Include:</li>
-                            <li>Behavioral Issues</li>
-                            <li>Autism, ODD, and ADHD</li>
-                            <li>Parent Training and Coaching</li>
-                        </ul>
-                    </div>
-                </div>-->
+
                 
-                <div class="staff3">
+                <div class="staff2">
+                    <img src="assets/images/kaitlin.jpg" alt="Kaitlin Peters">
                     <div>
                         <h4>Kaitlin Peters, MS, LPC- Associate</h4>
-                        <h5>Supervisor Erin Lozano LPC-S, RPT-S</h5>
+                        <h4>Supervised by Erin Lozano LPC-S, RPT-S</h4>
                         <ul>
                             <li>Specializations Include:</li>
                             <li>Preteen and Young Adult</li>
@@ -163,23 +152,36 @@
                             <li>ADHD & ASD</li>
                         </ul>
                     </div>
-                    <!--<img src="" alt="">-->
                 </div>
+
+                                <!--
+                <div class="staff2">
+                    <img src="" alt="">
+                    <div>
+                        <h4>Lexi Goldberg, M.Ed, BCBA, LBA</h4>
+                        <ul>
+                            <li>Specializations Include:</li>
+                            <li>Behavioral Issues</li>
+                            <li>Autism, ODD, and ADHD</li>
+                            <li>Parent Training and Coaching</li>
+                        </ul>
+                    </div>
+                </div>-->
                 
                 <div class="staff2">
-                    <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                     <div>
                         <h4>Melissa Drager</h4>
                         <h5>Practice Manager</h5>
                     </div>
+                    <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                 </div>
 
-                <div class="pam">
+                <div class="staff2">
+                    <img class="pam" src="assets/images/pamela1.jpg" alt="Pamela Patterson">
                     <div>
                         <h4>Pamela Patterson</h4>
                         <h5>Office Assistant</h5>
                     </div>
-                        <img class="pam" src="assets/images/pamela.jpg" alt="Pamela Patterson">
                 </div> 
             </div>             
         </main>
