@@ -115,6 +115,12 @@ class Pages extends CI_Controller {
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article3" />',
         ];
 
+        private $article4Data = [
+                'title' => "CSS Newsletter Article 4",
+                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article4" />',
+        ];
+
         public function view($page = 'home')
         {
 
@@ -163,6 +169,8 @@ class Pages extends CI_Controller {
                         $data = $this->article2Data;
                 } else if ($page === 'article3') {
                         $data = $this->article3Data;
+                } else if ($page === 'article4') {
+                        $data = $this->article4Data;
                 } else {
                         show_404();
                 }
