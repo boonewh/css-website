@@ -154,34 +154,38 @@
                     </div>
                 </div>
 
-                                <!--
                 <div class="staff2">
-                    <img src="" alt="">
                     <div>
                         <h4>Lexi Goldberg, M.Ed, BCBA, LBA</h4>
                         <ul>
                             <li>Specializations Include:</li>
+                            <li>Preschool through Preteen Age</li>
                             <li>Behavioral Issues</li>
+                            <li>Communication Deficits</li>
+                            <li>Social Skills</li>
                             <li>Autism, ODD, and ADHD</li>
                             <li>Parent Training and Coaching</li>
+                            <li>Sibling Play Therapy</li>
+                            <li>In-home Behavior Planning and Intervention</li>
                         </ul>
                     </div>
-                </div>-->
+                    <img src="assets/images/lexi.jpg" alt="Lexi Goldberg">
+                </div>
                 
                 <div class="staff2">
+                <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                     <div>
                         <h4>Melissa Drager</h4>
                         <h5>Practice Manager</h5>
                     </div>
-                    <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                 </div>
 
                 <div class="staff2">
-                    <img class="pam" src="assets/images/pamela1.jpg" alt="Pamela Patterson">
                     <div>
                         <h4>Pamela Patterson</h4>
                         <h5>Office Assistant</h5>
                     </div>
+                    <img class="pam" src="assets/images/pamela1.jpg" alt="Pamela Patterson">
                 </div> 
             </div>             
         </main>
