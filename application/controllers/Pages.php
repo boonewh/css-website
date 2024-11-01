@@ -62,7 +62,7 @@ class Pages extends CI_Controller {
         ];
 
         private $animalData = [
-                'title' => "CSS Aminal Assisted Therapy",
+                'title' => "CSS Animal Assisted Therapy",
                 'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/animal" />',
         ];
@@ -99,25 +99,25 @@ class Pages extends CI_Controller {
 
         private $article1Data = [
                 'title' => "CSS Newsletter Article 1",
-                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Encourage appropriate social skills with friends. Whether they meet up to hang out or a friend comes over for a play date, helping your child to navigate these social situations can be intimidating.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article1" />',
         ];
 
         private $article2Data = [
                 'title' => "CSS Newsletter Article 2",
-                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Creating indepenence within your teenager. We delve into practical strategies that empower both parents and teenagers on the journey towards autonomy.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article2" />',
         ];
 
         private $article3Data = [
                 'title' => "CSS Newsletter Article 3",
-                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Help raising confident kids. Parenting is perhaps one of the most difficult tasks we will face in our lifetime, and one of the many challenges of parenthood is helping to raise a confident child.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article3" />',
         ];
 
         private $article4Data = [
                 'title' => "CSS Newsletter Article 4",
-                'description' => "Encourage appropriate social skills with friends. Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Back to school. Starting a new school year will come with trials and errors. Do not let setbacks discourage you.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article4" />',
         ];
 
