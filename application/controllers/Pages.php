@@ -121,6 +121,12 @@ class Pages extends CI_Controller {
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article4" />',
         ];
 
+        private $article5Data = [
+                'title' => "CSS Newsletter Article 5",
+                'description' => "ADHD Awareness month. Did you know that there are three subtypes of ADHD?",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article5" />',
+        ];
+
         public function view($page = 'home')
         {
 
@@ -171,6 +177,8 @@ class Pages extends CI_Controller {
                         $data = $this->article3Data;
                 } else if ($page === 'article4') {
                         $data = $this->article4Data;
+                } else if ($page === 'article5') {
+                        $data = $this->article5Data;
                 } else {
                         show_404();
                 }

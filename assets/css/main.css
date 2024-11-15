@@ -405,6 +405,16 @@ article h6 {
 	border-radius: 10px;
 }
 
+.sign1 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.sign2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
 /* Schedule Styles */
 .table {
 	background: var(--primary2);
