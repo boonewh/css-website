@@ -368,6 +368,11 @@ figure ul {
 
 /* Newletter Styles */
 
+.note {
+	font-size: 0.9em;
+	text-align: center;
+}
+
 article {
 	font-size: 1.1em;
 	width: 100%;
