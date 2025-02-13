@@ -56,7 +56,6 @@
                 </div>
 
                 <div class="staff2">
-                    <img src="assets/images/tobi.jpg" alt="Tobi Carter">
                     <div>
                         <h4>Tobi Carter, MSW, LMSW</h4>
                         <ul>
@@ -75,24 +74,7 @@
                             <li>ADHD</li>
                         </ul>
                     </div>
-                </div>
-
-                <div class="staff2">
-                    <div>
-                        <h4>Deliah Fry, MSW, LMSW</h4>
-                        <ul>
-                            <li>Specializations Include:</li>
-                            <li>Tweens through Adolescents</li>
-                            <li>Individual Therapy</li>
-                            <li>Group Social Skills Therapy</li>
-                            <li>Anxiety/ Depression/ Stress Management</li>
-                            <li>Mindfulness</li>
-                            <li>Behavioral Issues</li>
-                            <li>Self-Esteem and Body Issues</li>
-                            <li>ADHD & ASD</li>
-                        </ul>
-                    </div>
-                    <img src="assets/images/deliah.jpg" alt="Deliah Fry">
+                    <img src="assets/images/tobi.jpg" alt="Tobi Carter">
                 </div>
 
                 <div class="staff2">
