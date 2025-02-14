@@ -127,6 +127,12 @@ class Pages extends CI_Controller {
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article5" />',
         ];
 
+        private $article6Data = [
+                'title' => "CSS Newsletter Article 6",
+                'description' => "In this month’s newsletter, Kaitlin shares practical therapeutic social skills to help your child navigate their feelings with confidence and calm.",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article6" />',
+        ];
+
         public function view($page = 'home')
         {
 
@@ -179,6 +185,8 @@ class Pages extends CI_Controller {
                         $data = $this->article4Data;
                 } else if ($page === 'article5') {
                         $data = $this->article5Data;
+                } else if ($page === 'article6') {
+                        $data = $this->article6Data;
                 } else {
                         show_404();
                 }

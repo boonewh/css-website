@@ -1,6 +1,5 @@
 <main>
     <article>
-        <h1>CSS Newsletter</h1>
         <img src="assets/images/contact0408.jpg" alt="Raising Confident Kids">
         <h1>HELP RAISING CONFIDENT KIDS</h1>
         

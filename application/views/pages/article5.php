@@ -1,6 +1,5 @@
         <main>
             <article>
-                <h1>CSS Newsletter</h1>
                 <img src="assets/images/contact1009.jpg" alt="ADHD Awareness">
                 <h1>ADHD Hyperactive vs. ADHD Inattentive:</h1>
                 <h1>What's the difference?</h1>
