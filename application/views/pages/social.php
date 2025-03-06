@@ -6,7 +6,7 @@
             <br>
             <section class="therapy">
                 <img src="assets/images/SocialSkillsGroups.jpg" alt="Social Skills Groups"> 
-                <h3>Is Your Child Struggling with Social Relationships?</h3>
+                <h2>Is Your Child Struggling with Social Relationships?</h2>
                 <p><strong>Discover the transformative impact of our Social Skills Groups!</strong></p>
                 <p>At The Center for Social Success, we understand the importance of fostering meaningful
                 connections for children. Our unique social skills groups offer a dedicated space for

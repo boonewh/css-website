@@ -5,8 +5,8 @@
             <div class="container2">
                 <div class="staff">
                     <img src="assets/images/erin.jpg" alt="Erin Lozano">
-                    <h4>Erin Lozano, MEd, LPC-Supervisor, RPT-S</h4>
-                    <h5>Early Childhood Division Director</h5>
+                    <p class="staff-name">Erin Lozano, MEd, LPC-Supervisor, RPT-S</p>
+                    <p class="staff-title">Early Childhood Division Director</p>
                     <ul>
                         <li>Specializations Include:</li>
                         <li>Pre-School through Preadolescents</li>
@@ -27,8 +27,8 @@
                 </div>
                 <div class="staff">
                     <img src="assets/images/holly.jpg" alt="Holly Fedro">
-                    <h4>Holly Fedro, MS, LCSW-Supervisor</h4>
-                    <h5>Adolescent and Adult Division Director</h5>
+                    <p class="staff-name">Holly Fedro, MS, LCSW-Supervisor</p>
+                    <p class="staff-title">Adolescent and Adult Division Director</p>
                     <ul>
                         <li>Specializations Include:</li>
                         <li>Tweens through Adulthood</li>
@@ -51,13 +51,13 @@
             <div class="container3">
                 <div class="dristre">
                     <img src="assets/images/susan.jpg" alt="Dr. Susan Istre">
-                    <h4>Susan Istre, PhD, LPC-S</h4>
-                    <h5>Director Emeritas</h5>
+                    <p class="staff-name">Susan Istre, PhD, LPC-S</p>
+                    <p class="staff-title">Director Emeritas</p>
                 </div>
 
                 <div class="staff2">
                     <div>
-                        <h4>Tobi Carter, MSW, LMSW</h4>
+                        <p class="staff-name">Tobi Carter, MSW, LMSW</p>
                         <ul>
                             <li>Specializations Include:</li>
                             <li>Pre School to College Students</li>
@@ -80,7 +80,7 @@
                 <div class="staff2">
                     <img src="assets/images/roy.jpg" alt="Roy Rodriguez">
                     <div>
-                        <h4>Roy Rodriguez, MSW, LMSW</h4>
+                        <p class="staff-name">Roy Rodriguez, MSW, LMSW</p>
                         <ul>
                             <li>Specializations Include:</li>
                             <li>Adolescents through Adulthood</li>
@@ -98,7 +98,7 @@
 
                 <div class="staff2">
                     <div>
-                        <h4>Mattie Crownover, MSW, LMSW</h4>
+                        <p class="staff-name">Mattie Crownover, MSW, LMSW</p>
                         <ul>
                             <li>Specializations Include:</li>
                             <li>Children through Young Adults</li>
@@ -118,8 +118,8 @@
                 <div class="staff2">
                     <img src="assets/images/kaitlin.jpg" alt="Kaitlin Peters">
                     <div>
-                        <h4>Kaitlin Peters, MS, LPC- Associate</h4>
-                        <h4>Supervised by Erin Lozano LPC-S, RPT-S</h4>
+                        <p class="staff-name">Kaitlin Peters, MS, LPC- Associate</p>
+                        <p class="staff-name">Supervised by Erin Lozano LPC-S, RPT-S</p>
                         <ul>
                             <li>Specializations Include:</li>
                             <li>Preteen and Young Adult</li>
@@ -135,39 +135,21 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="staff2">
-                    <div>
-                        <h4>Lexi Goldberg, M.Ed, BCBA, LBA</h4>
-                        <ul>
-                            <li>Specializations Include:</li>
-                            <li>Preschool through Preteen Age</li>
-                            <li>Behavioral Issues</li>
-                            <li>Communication Deficits</li>
-                            <li>Social Skills</li>
-                            <li>Autism, ODD, and ADHD</li>
-                            <li>Parent Training and Coaching</li>
-                            <li>Sibling Play Therapy</li>
-                            <li>In-home Behavior Planning and Intervention</li>
-                        </ul>
-                    </div>
-                    <img src="assets/images/lexi.jpg" alt="Lexi Goldberg">
-                </div>
                 
                 <div class="staff2">
-                <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                     <div>
-                        <h4>Melissa Drager</h4>
-                        <h5>Practice Manager</h5>
+                        <p class="staff-name">Melissa Drager</p>
+                        <p class="staff-title">Practice Manager</p>
                     </div>
+                    <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                 </div>
 
                 <div class="staff2">
-                    <div>
-                        <h4>Pamela Patterson</h4>
-                        <h5>Office Assistant</h5>
-                    </div>
                     <img class="pam" src="assets/images/pamela1.jpg" alt="Pamela Patterson">
+                    <div>
+                        <p class="staff-name">Pamela Patterson</p>
+                        <p class="staff-title">Office Assistant</p>
+                    </div>
                 </div> 
             </div>             
         </main>

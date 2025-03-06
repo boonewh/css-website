@@ -86,6 +86,17 @@ h2 {
 	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
+.therapy h2 {
+	text-align: start;
+	font-size: 1.1em;
+}
+
+.therapy h3.visits {
+    font-size: .85rem; 
+    font-weight: bold; 
+}
+
+
 h4 {
 	align-items: center;
 	font-family: Cabin, Arial, Helvetica, sans-serif;
@@ -223,10 +234,6 @@ input[type="submit"]:active {
 	border-radius: 10px;
 }
 
-.therapy h2 {
-	font-size: 2em;
-}
-
 .therapy h3 {
 	font-size: 1.1em;
 }
@@ -237,21 +244,25 @@ input[type="submit"]:active {
 	width: 100%;
 }
 
-.staff h4,
+.staff-name,
 .staff2 h4,
 .staff3 h4,
 .dristre h4,
 .pam h4 {
 	margin: 0;
 	font-size: 1.3em;
+	font-weight: bold;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
-.staff h5,
+.staff-title,
 .staff2 h5,
 .dristre h5,
 .pam h5 {
 	margin: 0;
 	font-size: 1.2em;
+	font-weight: bold;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
 .staff ul li,
@@ -385,9 +396,23 @@ article img {
 	margin: 0 auto;
 }
 
-article h6 {
+.articleBy {
 	margin: 0;
+	font-size: 0.67em;
+	font-weight: bold;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
 }
+
+article h2 {
+	text-align: start;
+	font-size: 1.1em;
+}
+
+article h2.adhdHeader {
+    font-size: 2rem;
+	text-align: center;
+}
+
 
 .past-blog {
 	display: flex; /* Use flexbox to lay out children inline */
@@ -819,6 +844,11 @@ footer {
 		border-radius: 10px;
 	}
 
+	.services h3 {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
 	article {
 		width: 65%;
 		margin: 0 auto;
@@ -861,6 +891,11 @@ footer {
 		transform: translate(-50%, -50%);
 		text-align: center;
 		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+	}
+
+	.services h3 {
+		font-size: 1.5em;
+		text-align: center;
 	}
 
 	#css-group img {

@@ -9,13 +9,13 @@
                     
                     <p>Talking is not the only way to process events and manage emotions. When words are difficult to express, a creative approach can be very impactful. Unlike traditional talk-therapy techniques, sand tray therapy and art therapy allow you to show your feelings rather than articulate them.</p>
                     
-                    <h3>What is Sand Tray Therapy?</h3>
+                    <h2>What is Sand Tray Therapy?</h2>
                     <p>Sand tray therapy is a hands-on and expressive form of therapy that involves the use of miniature figurines and a tray filled with sand. Children, teens or adults can then build and portray a “scene in the sand” and depict an experience or event that may be difficult to relay verbally. This therapy allows the therapist and the client to bridge communication by going beyond spoken words. This creative counseling technique allows individuals to convey their perceptions of themselves, the world around them, and various aspects of their reality by using figurines or miniatures. The scenes built in the sand tray serve as visual representations of the person's past and/or present inner thoughts, emotions, and challenges. This way of self-expression can feel less threatening and safer to some than traditional talk therapy.</p>
                     
-                    <h3>What is Art Therapy?</h3>
+                    <h2>What is Art Therapy?</h2>
                     <p>Like sand tray therapy, art therapy can help to resolve cognitive and emotionally distressing situations nonverbally. It utilizes the mind-body connection and allows the ability to work through distressing issues in a safe and non-invasive way. It is a creative form of therapy that uses artistic self-expression as a means to achieve emotional release. Some common forms of art therapeutic interventions that our skilled therapists at The Center for Social Success employ include drawing, painting, collages, writing, and making slime. These fun activities can help promote emotional expression and emotional healing.</p>
                     
-                    <h3>Common areas of focus in sand-tray and art therapy:</h3>
+                    <h2>Common areas of focus in sand-tray and art therapy:</h2>
                     <ul>
                         <li>ADHD</li>
                         <li>Anger Management</li>

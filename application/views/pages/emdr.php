@@ -13,7 +13,7 @@
                     
                     <p>In contrast to conventional psychotherapy approaches, individuals undergoing EMDR therapy do not delve extensively into discussing their traumatic experiences. EMDR can be a helpful tool in healing trauma.</p>
                     
-                    <h3>Some common areas of focus in EMDR:</h3>
+                    <h2>Some common areas of focus in EMDR:</h2>
                     <ul>
                         <li>Trauma</li>
                         <li>Anxiety</li>

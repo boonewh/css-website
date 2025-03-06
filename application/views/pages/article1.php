@@ -2,12 +2,12 @@
             <article>
                 <img src="assets/images/contact1223.png" alt="Social Skills">
                 <h1>How to Encourage Appropriate Social Skills with Friends</h1>
-                    <h6>From the desk of Erin Lozano, MEd, LPC-S, RPT-S</h6>
-                    <h6>Director of Early Childhood</h6>
+                    <p class="articleBy">From the desk of Erin Lozano, MEd, LPC-S, RPT-S</p>
+                    <p class="articleBy">Director of Early Childhood</p>
 
                     <p>The holiday breaks are an opportunity for your child to spend time with other friends in a setting outside the school. Whether they meet up to hang out or a friend comes over for a play date, helping your child to navigate these social situations can be intimidating, especially if your child has had social difficulty in the past. As parents, there are things you can do to help encourage success in these areas!</p>
 
-                    <h3>Help Your Child Chose an Appropriate Friend to Spend Time With</h3>
+                    <h2>Help Your Child Chose an Appropriate Friend to Spend Time With</h2>
                     <ul>
                         <li>Help your child chose a friend who is nice to them</li>
                         <li>Help your child text/call the friend to ask if they would like to hang out</li>
@@ -15,7 +15,7 @@
                         <li>For younger children, reach out to the other child’s parents to set up the play date</li>
                     </ul>
 
-                    <h3>Target the Social Behaviors You Want to Change</h3>
+                    <h2>Target the Social Behaviors You Want to Change</h2>
                     <ul>
                         <li>Be specific</li>
                         <li>Only focus on a few at a time</li>
@@ -23,14 +23,14 @@
                         <li>Some examples of targeted behaviors include: “Use your words”, “Take deep breaths when frustrated”, “Share toys”, “Take turns”, etc.</li>
                     </ul>
 
-                    <h3>Talk to Your Child About How You Would Like Them to Act</h3>
+                    <h2>Talk to Your Child About How You Would Like Them to Act</h2>
                     <ul>
                         <li>Agree on a plan</li>
                         <li>Be very concrete</li>
                         <li>State your goals in a positive way and again tell them what you want them TO DO, not what you want them NOT TO DO</li>
                     </ul>
 
-                    <h3>Set Up an Incentive Plan</h3>
+                    <h2>Set Up an Incentive Plan</h2>
                     <ul>
                         <li>Avoid criticism</li>
                         <li>Catch your child doing WELL and comment frequently</li>
@@ -39,13 +39,13 @@
                         <li>Liberally reward your child, especially in the beginning</li>
                     </ul>
 
-                    <h3>Prepare Your Child in Advance for Social Situations</h3>
+                    <h2>Prepare Your Child in Advance for Social Situations</h2>
                     <ul>
                         <li>Remind your child what you expect</li>
                         <li>Express confidence that they can do it</li>
                     </ul>
 
-                    <h3>Help Your Child Learn to Solve a Difficult Situation</h3>
+                    <h2>Help Your Child Learn to Solve a Difficult Situation</h2>
                     <ul>
                         <li>Use Empathy</li>
                         <li>Help them identify what went wrong</li>
@@ -55,7 +55,7 @@
                         <li>Remember, your goal is to help your child learn which problems can be fixed, which cannot, and the wisdom to know the difference</li>
                     </ul>
 
-                    <h3>Celebrate Your Child’s Accomplishments</h3>
+                    <h2>Celebrate Your Child’s Accomplishments</h2>
                     <ul>
                         <li>Be honest</li>
                         <li>Be specific</li>

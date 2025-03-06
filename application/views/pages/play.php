@@ -7,7 +7,7 @@
             <div>
                 <section class="therapy">
                     <img src="assets/images/play-therapy.jpg" alt="Play Therapy Image"> 
-                    <h3>Is your child struggling to express their emotions?</h3>
+                    <h2>Is your child struggling to express their emotions?</h2>
                     <p>Whether it's dealing with anger, anxiety, or processing family issues, have you exhausted all the online recommendations with little success? Discover the transformative power of play therapy – a safe and therapeutic space designed for children aged 10 and younger.</p>
 
                     <p>In play therapy, children find a unique opportunity to express their emotions and overcome challenges through the power of play. Children do not have the experience or language to express themselves in the same way as adults. Our dedicated therapists use creative and play-based interventions to guide them through this process. Play therapy can help to improve communication skills, develop effective coping skills, identify and express feelings, and strengthen family bonds.</p>

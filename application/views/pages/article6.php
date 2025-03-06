@@ -10,12 +10,12 @@
 
             <h1>Navigating the Holidays: Therapeutic Coping Skills for Children</h1>
             
-            <h6>Written by Kaitlin Peters, LPC-A</h6>
-            <h6>Supervised by Erin Lozano LPC-S, RPTS</h6>
+            <p class="articleBy">Written by Kaitlin Peters, LPC-A</p>
+            <p class="articleBy">Supervised by Erin Lozano LPC-S, RPTS</p>
             <p>Dear Parents,</p>
             <p></p>
             
-            <h3>Understanding Therapeutic Coping Skills</h3>
+            <h2>Understanding Therapeutic Coping Skills</h2>
             <p>Coping skills are strategies that help individuals manage stress, anxiety, and overwhelming emotions. For children, developing these skills is crucial as they learn to express themselves and handle life's challenges. Here are some effective coping strategies you can encourage at home:</p>
             
             <p><strong>1. Breathing Exercises:</strong> Teaching your child to take deep breaths can help them calm down during stressful moments. You can prompt them to stop and take a big breath, or encourage a fun breathing strategy like the ‘5 Finger Breath’, where you hold your hand out in front of you and then with your other pointer finger, slowly trace your hand, breathing in as you trace up your finger, and breathing out as you trace down your finger.</p>
@@ -30,7 +30,7 @@
             
             <p><strong>6. Routine and Structure:</strong>Maintaining a consistent daily routine can provide a sense of security for children. As the holidays approach, try to keep regular meal and bedtime schedules to help them feel grounded.</p>
             
-            <h3>Preparing for the Holidays</h3>
+            <h2>Preparing for the Holidays</h2>
             <p>The holiday season can be a whirlwind of excitement and stress! Here are some tips to help your child cope with the changes and emotions that may arise:</p>
             
             <p><strong>Set Realistic Expectations:</strong> Discuss the fun activities planned but also acknowledge that it can be overwhelming at times.</p>

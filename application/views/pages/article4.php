@@ -4,7 +4,7 @@
             
                 <h1>BACK TO SCHOOL</h1>
                 
-                <h6>From the Desk Of: Mattie Crownover, LMSW</h6>
+                <p class="articleBy">From the Desk Of: Mattie Crownover, LMSW</p>
                 <p>Back to school can be an exciting time for your child, but it can also cause anxiety. As your child is getting back into their school routine this can be a great time to talk to them about how they are feeling about school. Children may be facing significant amounts of change, such as different peer groups, trying out for extracurricular activities, and new teachers or different subjects. These changes can be scary.</p>
              
                 <p>Share in your child’s excitement and validate their feelings of anxiety.</p>

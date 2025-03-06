@@ -28,14 +28,17 @@
                             <input type="radio" id="tobi_carter" name="counselor" value="Tobi Carter">
                             <label for="tobi_carter">Tobi Carter, MSW, LMSW</label><br>
 
-                            <input type="radio" id="deliah_mooney" name="counselor" value="Deliah Mooney">
-                            <label for="deliah_mooney">Deliah Fry, MSW, LMSW</label><br>
-
                             <input type="radio" id="roy_rodriguez" name="counselor" value="Roy Rodriguez">
                             <label for="roy_rodriguez">Roy Rodriguez, MSW, LMSW</label><br>
 
                             <input type="radio" id="mattie_crownover" name="counselor" value="Mattie Crownover">
                             <label for="mattie_crownover">Mattie Crownover, MSW, LMSW</label><br>
+
+                            <input type="radio" id="kaitlin_peters" name="counselor" value="Kaitlin Peters">
+                            <label for="kaitlin_peters">
+                                Kaitlin Peters, MS, LPC-Associate<br>
+                                <span>Supervised by Erin Lozano, LPC-S, RPT-S</span>
+                            </label><br>
 
                             <input type="radio" id="unsure" name="counselor" value="unsure">
                             <label for="unsure">I am unsure, please suggest someone for me.</label><br>

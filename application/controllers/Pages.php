@@ -8,8 +8,8 @@ class Pages extends CI_Controller {
         ];
 
         private $staffData = [
-                'title' => "CSS Meet Our Professionals",
-                'description' => "CSS Proffesionals, specializing in a wide variety of services to help you every day.",
+                'title' => "Meet the Professionals at Center for Social Success",
+                'description' => "CSS Professionals, specializing in a wide variety of services to help you every day.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/staff" />',
         ];
 
@@ -45,49 +45,49 @@ class Pages extends CI_Controller {
 
         private $socialData = [
                 'title' => "CSS Social Skills Group",
-                'description' => "Let us help you in all of your social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success of Dallas provides specialized therapy for young adults and adults, helping build social skills, confidence, and meaningful relationships.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/social" />',
         ];
 
         private $playData = [
                 'title' => "CSS Play Therapy",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success offers play therapy to help children develop social skills, emotional growth, and confidence through fun, therapeutic activities.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/play" />',
         ];
 
         private $teenData = [
                 'title' => "CSS Teen and Adolescents Therapy",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success provides expert teen and adolescent therapy to build social skills, boost confidence, and support emotional well-being for a brighter future.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/teen" />',
         ];
 
         private $animalData = [
                 'title' => "CSS Animal Assisted Therapy",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success offers Animal-Assisted Therapy to help individuals build social skills, reduce anxiety, and enhance emotional well-being through therapeutic animal interactions.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/animal" />',
         ];
 
         private $adultData = [
                 'title' => "CSS Young Adult and Adult Therapy",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success provides specialized therapy for young adults and adults, helping build social skills, confidence, and meaningful relationships.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/adult" />',
         ];
 
         private $familyData = [
                 'title' => "CSS Family/Parenting Therapy",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success offers family, parenting, and sibling therapy to strengthen relationships, improve communication, and create a supportive home environment.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/family" />',
         ];
 
         private $emdrData = [
                 'title' => "CSS EMDR",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success offers Eye Movement Desensitization and Reprocessing (EMDR) therapy to help individuals process trauma, reduce anxiety, and find healing.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/emdr" />',
         ];
 
         private $sandtrayData = [
                 'title' => "CSS Sand Tray and Art Therapy",
-                'description' => "Let us help you in all of your social interactions and social skills. Family, individual counseling and group therapy including animal assisted therapy and play therapy.",
+                'description' => "Center for Social Success offers Sand Tray and Art Therapy, providing a creative and expressive approach to healing, emotional growth, and improved social skills.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/sandtray" />',
         ];
 
@@ -131,6 +131,12 @@ class Pages extends CI_Controller {
                 'title' => "CSS Newsletter Article 6",
                 'description' => "In this month’s newsletter, Kaitlin shares practical therapeutic social skills to help your child navigate their feelings with confidence and calm.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article6" />',
+        ];
+
+        private $article7Data = [
+                'title' => "CSS Newsletter Article 7",
+                'description' => "Dealing with conflict. Teaching children how to handle conflict in a healthy and productive manner is a great way to set them up for social success!",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article7" />',
         ];
 
         public function view($page = 'home')
@@ -187,6 +193,8 @@ class Pages extends CI_Controller {
                         $data = $this->article5Data;
                 } else if ($page === 'article6') {
                         $data = $this->article6Data;
+                } else if ($page === 'article7') {
+                        $data = $this->article7Data;
                 } else {
                         show_404();
                 }

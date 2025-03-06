@@ -6,16 +6,16 @@
             <div class="therapy">
                 <section>
                     <img src="assets/images/familyservices.jpg" alt="Child, Teen, Family Services">
-                    <h3>Parenting Therapy</h3>
+                    <h2>Parenting Therapy</h2>
                     <p>We provide a nurturing haven for families and parents seeking support and
                     guidance through our specialized services. At The Center for Social Success, we
                     recognize that parenting comes with its own unique set of challenges. That's why
                     our dedicated team of therapists is here to assist you every step of the way.</p>
-                    <h3>Parent Coaching</h3>
-                    <h5>In-Office and/or Home Visits</h5>
+                    <h2>Parent Coaching</h2>
+                    <h3 class="visits">In-Office and/or Home Visits</h3>
                     <p>In our tailored sessions, parents and families have the opportunity to address family dynamics, create effective parenting strategies, and evaluate communication skills within the household. We understand the intricacies of raising a family, and our ultimate goal is to empower both individual members as well as the entire family unit. We also offer home visits to aid in the implementation of effective parenting strategies, as well as managing home behavior. </p>
 
-                    <h3>PCIT (Parent-Child Interaction Therapy)</h3>
+                    <h2>PCIT (Parent-Child Interaction Therapy)</h2>
                     <p>Parent-Child Interaction Therapy is an evidence-based program used with
                     children with behavioral problems for parents and children together.
                     PCIT involves "coaching" sessions where you and your child engage in play in a
@@ -36,7 +36,7 @@
                     behavior in public. Some goals of this phase include increasing minding and
                     compliance, and effective limit setting.</p>
 
-                    <h3>Sibling Therapy</h3>
+                    <h2>Sibling Therapy</h2>
                     <p>Are your children constantly fighting with each other? Sibling therapy works
                     to change the pattern of negative interactions between siblings. In our unique
                     sibling therapy sessions, we use cognitive-behavioral techniques to identify
@@ -45,7 +45,7 @@
                     this process to help follow through at home by implementing positive behavior
                     plans targeted to increasing positive sibling interactions.</p>
 
-                    <h3>Couples Therapy</h3>
+                    <h2>Couples Therapy</h2>
                     <p>Couples therapy is a form of therapy designed to help improve relationships.
                     Couples therapy offers a safe space for addressing an array of relationship
                     issues, including communication, trust, emotional intimacy, and parenting

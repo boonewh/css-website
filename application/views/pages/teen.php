@@ -7,7 +7,7 @@
             <div class= "therapy">
                 <section>
                     <img src="assets/images/teen.jpg" alt="Teen and Adolescent Therapy"> 
-                    <h3>Transform Your Teen and Family Dynamics</h3>
+                    <h2>Transform Your Teen and Family Dynamics</h2>
                     <p>The teenage years bring their own unique set of challenges! Teens are no longer children, but not yet adults. Adolescence can be a difficult time, especially in our society today, where social media and peer pressure compound this already difficult stage of life.</p>
                     
                     <p>Our therapists at The Center for Social Success are attuned to the unique plight of adolescence and are masterful at connecting with teens and helping them to come up with healthy coping skills. Our team of friendly and professional therapists is dedicated to creating a safe space where teens can freely express themselves, fostering resilience and lasting transformations. Grounded in cognitive-behavioral techniques, our therapists engage with teens and adolescents not only through traditional talk-based therapy, but can also include such therapies as sand tray therapy, art therapy, EMDR, and group therapy.</p>
