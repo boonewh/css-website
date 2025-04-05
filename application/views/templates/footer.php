@@ -12,7 +12,7 @@
 				<p>Mom Approved 2012-2024</p>
 			</div>
 			<div class="advert">
-				<p>2024 All Rights Reserved, The Center for Social Success</p>
+				<p>2025 All Rights Reserved, The Center for Social Success</p>
 				<a href="https://www.pathsixdesigns.com"><p>Website Design: PathSix Web Design</p></a>
 			</div>
 		</footer>

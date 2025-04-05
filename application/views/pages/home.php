@@ -50,7 +50,7 @@
 			"@context": "http://schema.org",
 			"@type": "ProfessionalService",
 			"name": "Center for Social Success",
-			"description": "A counseling center in Dallas, Tx. helping individuals improve social skills and supporting parents with their children's social development.",
+			"description": "The Center for Social Success is a counseling center in Dallas, Tx. helping individuals improve social skills and supporting parents with their children's social development.",
 			"url": "http://cssdallas.com",
 			"logo": "http://cssdallas.com/assets/images/css-logo2024.png",
 			"telephone": "+1-972-404-3001",

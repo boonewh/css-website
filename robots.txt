@@ -1,4 +1,4 @@
-ser-Agent: *
+User-agent: *
 Disallow: /?s
 
 Sitemap: https://www.cssdallas.com/sitemap.xml
