@@ -135,8 +135,14 @@ class Pages extends CI_Controller {
 
         private $article7Data = [
                 'title' => "CSS Newsletter Article 7",
-                'description' => "Dealing with conflict. Teaching children how to handle conflict in a healthy and productive manner is a great way to set them up for social success!",
+                'description' => "Spread Joy and Love on Valentines. Take this opportunity to express your love and appreciation for your child.",
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article7" />',
+        ];
+
+        private $article8Data = [
+                'title' => "CSS Newsletter Article 8",
+                'description' => "Dealing with conflict. Teaching children how to handle conflict in a healthy and productive manner is a great way to set them up for social success!",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article8" />',
         ];
 
         public function view($page = 'home')
@@ -195,6 +201,8 @@ class Pages extends CI_Controller {
                         $data = $this->article6Data;
                 } else if ($page === 'article7') {
                         $data = $this->article7Data;
+                } else if ($page === 'article8') {
+                        $data = $this->article8Data;
                 } else {
                         show_404();
                 }
