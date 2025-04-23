@@ -1,13 +1,15 @@
         <main>
             <article>
                 <h1>CSS Newsletter</h1>
-                <img src="assets/images/summer_flier1.jpg" alt="Summer Camp Flyer 1">
                 <br>
-                <img src="assets/images/summer_flier3.jpg" alt="Summer Camp Flyer 2">
+                <img src="assets/images/summer_flier3.jpg" alt="Summer Camp Flyer 1">
                 <br>
-                <img src="assets/images/summer_flier2.jpg" alt="Summer Camp Flyer 3">
+                <img src="assets/images/summer_flier2.jpg" alt="Summer Camp Flyer 2">
                 <br>
-                <img src="assets/images/summer_flier4.png" alt="Summer Camp Flyer 4">
+                <img src="assets/images/summer_flier4.png" alt="Summer Camp Flyer 3">
+                <br>
+                <img src="assets/images/summer_flier1.jpg" alt="Summer Camp Flyer 4">
+                <br>
 
             </article>
             <div class="past-blog">
