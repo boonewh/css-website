@@ -1,6 +1,16 @@
-        <main>
-            <article>
+<main>
+            <article class="newsletter-article">
                 <h1>CSS Newsletter</h1>
+                <br>
+                <h2>Parent Summer Groups 2025</h2>
+                <br>
+                <img src="assets/images/summer_flier5.jpg" alt="Summer Camp Flyer 5">
+                <br>
+                <img src="assets/images/summer_flier6.jpg" alt="Summer Camp Flyer 6">
+                <br>
+                <img src="assets/images/summer_flier7.jpg" alt="Summer Camp Flyer 7">
+                <br>
+                <h2>Summer Camps 2025</h2>
                 <br>
                 <img src="assets/images/summer_flier3.jpg" alt="Summer Camp Flyer 1">
                 <br>
@@ -10,7 +20,6 @@
                 <br>
                 <img src="assets/images/summer_flier1.jpg" alt="Summer Camp Flyer 4">
                 <br>
-
             </article>
             <div class="past-blog">
                 <h1>Past Newsletters</h1>
