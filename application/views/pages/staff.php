@@ -135,21 +135,41 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="staff2">
+                    <div>
+                        <p class="staff-name">Allie Manos, MS, LPC-Associate</p>
+                        <p class="staff-name">Supervised by Erin Lozano LPC-S, RPT-S</p>
+                        <ul>
+                            <li>Specializations Include:</li>
+                            <li>Children through Adolescence</li>
+                            <li>Individual Therapy</li>
+                            <li>Group Social Skills Therapy</li>
+                            <li>Self-Esteem and Body Issues</li>
+                            <li>Anxiety/Depression/Stress Management</li>
+                            <li>Mindfulness</li>
+                            <li>Behavioral Issues</li>
+                            <li>ADHD & ASD</li>
+                            <li>Executive Functioning Skills</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/allie.jpg" alt="Allie Manos">
+                </div>
                 
                 <div class="staff2">
+                    <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                     <div>
                         <p class="staff-name">Melissa Drager</p>
                         <p class="staff-title">Practice Manager</p>
                     </div>
-                    <img src="assets/images/melissa.jpg" alt="Melissa Drager">
                 </div>
 
                 <div class="staff2">
-                    <img class="pam" src="assets/images/pamela1.jpg" alt="Pamela Patterson">
                     <div>
                         <p class="staff-name">Pamela Patterson</p>
                         <p class="staff-title">Office Assistant</p>
                     </div>
+                    <img src="assets/images/pamela1.jpg" alt="Pamela Patterson">
                 </div> 
             </div>             
         </main>

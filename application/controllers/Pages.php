@@ -145,6 +145,17 @@ class Pages extends CI_Controller {
                 'canonical' => '<link rel="canonical" href="https://cssdallas.com/article8" />',
         ];
 
+        private $article9Data = [
+                'title' => "CSS Newsletter Article 9",
+                'description' => "May Social Skills Group Topics. This month we will be focusing on the following topics.",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article9" />',
+        ];
+        private $article10Data = [
+                'title' => "CSS Newsletter Article 10",
+                'description' => "Parents Summer Groups. This month we will be focusing on the following topics.",
+                'canonical' => '<link rel="canonical" href="https://cssdallas.com/article10" />',
+        ];
+
         public function view($page = 'home')
         {
 
@@ -203,6 +214,10 @@ class Pages extends CI_Controller {
                         $data = $this->article7Data;
                 } else if ($page === 'article8') {
                         $data = $this->article8Data;
+                } else if ($page === 'article9') {
+                        $data = $this->article9Data;
+                } else if ($page === 'article10') {
+                        $data = $this->article10Data;
                 } else {
                         show_404();
                 }

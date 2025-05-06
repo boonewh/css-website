@@ -2,27 +2,31 @@
             <article class="newsletter-article">
                 <h1>CSS Newsletter</h1>
                 <br>
-                <h2>Parent Summer Groups 2025</h2>
+                <h2>CSS Summer Camps in June & July</h2>
                 <br>
-                <img src="assets/images/summer_flier5.jpg" alt="Summer Camp Flyer 5">
+                <img src="assets/images/flier_mindful_move.jpg" alt="Mindfulness and Movements Camp Flyer">
                 <br>
-                <img src="assets/images/summer_flier6.jpg" alt="Summer Camp Flyer 6">
+                <img src="assets/images/flier_calming_art.jpg" alt="Calming the Trauma Through Art Camp Flyer">
                 <br>
-                <img src="assets/images/summer_flier7.jpg" alt="Summer Camp Flyer 7">
+                <img src="assets/images/flier_legos.jpg" alt="Legos Camp Flyer">
                 <br>
-                <h2>Summer Camps 2025</h2>
+                <img src="assets/images/flier_spill_tea.png" alt="Spill the Tea Camp Flyer">
                 <br>
-                <img src="assets/images/summer_flier3.jpg" alt="Summer Camp Flyer 1">
+                <img src="assets/images/flier_connect_crafts.jpg" alt="Connecting with Crafts Camp Flyer">
                 <br>
-                <img src="assets/images/summer_flier2.jpg" alt="Summer Camp Flyer 2">
+                <img src="assets/images/flier_anime.jpg" alt="Anime Camp Flyer">
                 <br>
-                <img src="assets/images/summer_flier4.png" alt="Summer Camp Flyer 3">
+                <img src="assets/images/flier_siblings_unite.jpg" alt="Siblings Unite Camp Flyer">
                 <br>
-                <img src="assets/images/summer_flier1.jpg" alt="Summer Camp Flyer 4">
+                <img src="assets/images/flier_swifties.jpg" alt="Swifties Camp Flyer">
                 <br>
+
             </article>
+
             <div class="past-blog">
                 <h1>Past Newsletters</h1>
+                <a href="/article9"><img src="assets/images/mayGroupsNewsletterLink.jpg" alt="May Topics Link"></a>
+                <a href="/article10"><img src="assets/images/parentNewsletterLink.jpg" alt="Parent Groups Link"></a>
                 <a href="/article1"><img src="assets/images/contact1223link.jpg" alt="Article 1 Link"></a>
                 <a href="/article2"><img src="assets/images/contact0124link.jpg" alt="Article 2 Link"></a>
                 <a href="/article3"><img src="assets/images/contact0408link.jpg" alt="Article 3 Link"></a>
