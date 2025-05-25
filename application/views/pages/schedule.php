@@ -1,6 +1,6 @@
     <main class="table">
         <div>
-            <h1>2024 Group Therapy Schedule</h1>
+            <h1>2025 Group Therapy Schedule</h1>
             <br>
             <div class="staffpic"><img src="assets/images/css-staff-23.jpg" alt=""></div>
             <br>
